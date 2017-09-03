@@ -3,10 +3,10 @@
   <channel>
     <title>Ettore Ciprian's Web Dungeon</title>
     <description>Ettore Ciprian is a full stack developer living and studying in Berlin and likes movies and web projects of questionable features</description>
-    <link>http://ettoreciprian.com/</link>
-    <atom:link href="http://ettoreciprian.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 Sep 2017 23:24:33 +0200</pubDate>
-    <lastBuildDate>Sun, 03 Sep 2017 23:24:33 +0200</lastBuildDate>
+    <link>http://0.0.0.0:4000/</link>
+    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 03 Sep 2017 23:38:56 +0200</pubDate>
+    <lastBuildDate>Sun, 03 Sep 2017 23:38:56 +0200</lastBuildDate>
     <generator>Jekyll v3.4.2</generator>
     
       <item>
@@ -76,8 +76,8 @@
 &lt;p&gt;Una nuova funzione salta all’occhio per l’utilità: lo streaming istantaneo del file. Al contrario dei servizi di streaming, un download in peer-to-peer richiede che tutto il file sia completo prima della riproduzione. Richiede che tutte le parti del file siano state condivise e scaricate, visto che il download avviene a &lt;strong&gt;pacchetti&lt;/strong&gt; in base a diversi fattori. Con i programmi tradizionali, i file sopra scaricati non potranno essere riprodotti fino al completamento, il che potrebbe indispettire la vostra ragazza, che non esiterà a insultarvi mentre si sta ingozzando di pizza comodamente seduta sul divano.&lt;/p&gt;
 </description>
         <pubDate>Tue, 25 Jul 2017 11:25:25 +0200</pubDate>
-        <link>http://ettoreciprian.com/post/2017/07/25/artdownloading.html</link>
-        <guid isPermaLink="true">http://ettoreciprian.com/post/2017/07/25/artdownloading.html</guid>
+        <link>http://0.0.0.0:4000/post/2017/07/25/artdownloading.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/post/2017/07/25/artdownloading.html</guid>
         
         <category>torrent, download</category>
         
@@ -102,8 +102,8 @@
 &lt;p&gt;Give it a try at &lt;a href=&quot;http://www.dtune.online&quot;&gt;dtune.online&lt;/a&gt; and tell us what you think. Currently in development!&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Mar 2017 00:00:00 +0100</pubDate>
-        <link>http://ettoreciprian.com/project/2017/03/01/dtune.html</link>
-        <guid isPermaLink="true">http://ettoreciprian.com/project/2017/03/01/dtune.html</guid>
+        <link>http://0.0.0.0:4000/project/2017/03/01/dtune.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/project/2017/03/01/dtune.html</guid>
         
         
         <category>project</category>
@@ -127,8 +127,8 @@
 Check this project Github &lt;a href=&quot;https://github.com/platinumjesus/studiospazio&quot;&gt;repository&lt;/a&gt; for some juicy code.&lt;/p&gt;
 </description>
         <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
-        <link>http://ettoreciprian.com/project/2017/01/01/studiospazio.html</link>
-        <guid isPermaLink="true">http://ettoreciprian.com/project/2017/01/01/studiospazio.html</guid>
+        <link>http://0.0.0.0:4000/project/2017/01/01/studiospazio.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/project/2017/01/01/studiospazio.html</guid>
         
         
         <category>project</category>
@@ -143,8 +143,8 @@ Check this project Github &lt;a href=&quot;https://github.com/platinumjesus/stud
 &lt;p&gt;The Internet is our precious source of information, what would happen if it went down? This &lt;a href=&quot;http://alvarotrigo.com/fullPage/#firstPage&quot;&gt;fullPage.js&lt;/a&gt; presentation tries to explain it in a not threatening way.&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Jul 2015 00:00:00 +0200</pubDate>
-        <link>http://ettoreciprian.com/project/2015/07/01/internetisdown.html</link>
-        <guid isPermaLink="true">http://ettoreciprian.com/project/2015/07/01/internetisdown.html</guid>
+        <link>http://0.0.0.0:4000/project/2015/07/01/internetisdown.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/project/2015/07/01/internetisdown.html</guid>
         
         
         <category>project</category>
@@ -165,8 +165,8 @@ Check this project Github &lt;a href=&quot;https://github.com/platinumjesus/stud
 &lt;p&gt;Forgetme uses &lt;a href=&quot;https://pipl.com/dev/&quot;&gt;Pipl&lt;/a&gt; free API to find your email and/or name, then it cross-references the most probable results with &lt;a href=&quot;http://backgroundchecks.org/justdeleteme/en.html&quot;&gt;justdeleteme&lt;/a&gt; folder of accounts, rated by privacy policies of the service provider.&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Jul 2015 00:00:00 +0200</pubDate>
-        <link>http://ettoreciprian.com/project/2015/07/01/forgetme.html</link>
-        <guid isPermaLink="true">http://ettoreciprian.com/project/2015/07/01/forgetme.html</guid>
+        <link>http://0.0.0.0:4000/project/2015/07/01/forgetme.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/project/2015/07/01/forgetme.html</guid>
         
         
         <category>project</category>

@@ -1,1 +1,177 @@
-<?xml version="1.0" encoding="UTF-8"?> <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"> <channel> <title>Ettore Ciprian's Web Dungeon</title> <description>Ettore Ciprian is a full stack developer living and studying in Berlin and likes movies and web projects of questionable features</description> <link>https://ettoreciprian.com/</link> <atom:link href="https://ettoreciprian.com/feed.xml" rel="self" type="application/rss+xml"/> <pubDate>Sat, 08 Apr 2017 16:35:29 +0200</pubDate> <lastBuildDate>Sat, 08 Apr 2017 16:35:29 +0200</lastBuildDate> <generator>Jekyll v3.4.2</generator> <item> <title>Dtune Beta</title> <description> &lt;p&gt;&lt;img class=&quot;responsive-img border-dashed &quot; src=&quot;/assets/images/dtune.jpg&quot; alt=&quot;dtune&quot; srcset=&quot; /assets/images/resized/dtune-480.jpg 480w, /assets/images/resized/dtune-900.jpg 900w, /assets/images/dtune.jpg 1366w&quot; /&gt;&lt;/p&gt; &lt;p&gt;Dtune is my latest project, still in development. At the moment, I have released a working beta together with the starter of the project, the one and only David Tomic, that you can visit at &lt;a href=&quot;http://www.dtune.online&quot;&gt;dtune.online&lt;/a&gt;.&lt;/p&gt; &lt;div class=&quot;decor decor-margin center&quot;&gt; &lt;span class=&quot;icon-clubs&quot;&gt;&lt;/span&gt; &lt;/div&gt; &lt;p&gt;What does Dtune do? It is a collaborative juke-box! Well, that does not really explain everything. It uses &lt;a href=&quot;https://www.pubnub.com/&quot;&gt;PubNub&lt;/a&gt; in order to publish song from your favorite Youtube playlist and receive votes, in order to push the most liked videos up in the queue. The desktop version acts as a manager, while the mobile version lists songs and allows the user to vote the next one. In the manager interface, you may login and import your favorite playlist form Youtube. If then you visit the same link on mobile devices or &lt;a href=&quot;http://www.dtune.online/mobile.html&quot;&gt;dtune mobile&lt;/a&gt;, you will be able to see your “stream”, and vote for the songs.&lt;/p&gt; &lt;p&gt;Give it a try at &lt;a href=&quot;http://www.dtune.online&quot;&gt;dtune.online&lt;/a&gt; and tell us what you think. Currently in development!&lt;/p&gt; </description> <pubDate>Wed, 01 Mar 2017 00:00:00 +0100</pubDate> <link>https://ettoreciprian.com/project/2017/03/01/dtune.html</link> <guid isPermaLink="true">https://ettoreciprian.com/project/2017/03/01/dtune.html</guid> <category>project</category> </item> <item> <title>Studiospazio</title> <description> &lt;p&gt;&lt;img class=&quot;responsive-img border-dashed &quot; src=&quot;/assets/images/studiospazio.jpg&quot; alt=&quot;Studiospazio&quot; srcset=&quot; /assets/images/resized/studiospazio-480.jpg 480w, /assets/images/resized/studiospazio-900.jpg 900w, /assets/images/studiospazio.jpg 1920w&quot; /&gt;&lt;/p&gt; &lt;p&gt;Studiospazio is a full screen gallery with responsive layout and lazy loading of the images.&lt;/p&gt; &lt;blockquote class=&quot;quote&quot; title=&quot;studiospazio.net&quot;&gt; &lt;p&gt;“Studiospazio is the architectural practice established by Samuele Squassabia, Tao Baerlocher and Eugenio Squassabia. Studiospazio deals with the question of the relationship between architecture and the contemporary reality through projects, competitions, publications and the academic commitment”&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;The web page idea came as a collaboration between me and the commissioner, Studiospazio. It is designed to be simple and to work wit all devices screen sizes and orientations. It features a infinite scroll, with each project containing at least four images, and an action button on top to show description and plans of one studio’s project.&lt;/p&gt; &lt;p&gt;Regarding the implementation, the gallery is created thanks to the awesome and only &lt;a href=&quot;http://flickity.metafizzy.co/&quot;&gt;flickity&lt;/a&gt; library, while the lazy loading is achieved with &lt;a href=&quot;https://github.com/aFarkas/lazysizes&quot;&gt;lazysizes&lt;/a&gt; Check this project Github &lt;a href=&quot;https://github.com/platinumjesus/studiospazio&quot;&gt;repository&lt;/a&gt; for some juicy code.&lt;/p&gt; </description> <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate> <link>https://ettoreciprian.com/project/2017/01/01/studiospazio.html</link> <guid isPermaLink="true">https://ettoreciprian.com/project/2017/01/01/studiospazio.html</guid> <category>project</category> </item> <item> <title>No Internet Connection</title> <description> &lt;p&gt;&lt;img class=&quot;responsive-img border-dashed &quot; src=&quot;/assets/images/withoutinternet.jpg&quot; alt=&quot;A web presentation made with fullPage&quot; srcset=&quot; /assets/images/resized/withoutinternet-480.jpg 480w, /assets/images/resized/withoutinternet-900.jpg 900w, /assets/images/withoutinternet.jpg 1366w&quot; /&gt;&lt;/p&gt; &lt;p&gt;The Internet is our precious source of information, what would happen if it went down? This &lt;a href=&quot;http://alvarotrigo.com/fullPage/#firstPage&quot;&gt;fullPage.js&lt;/a&gt; presentation tries to explain it in a not threatening way.&lt;/p&gt; </description> <pubDate>Wed, 01 Jul 2015 00:00:00 +0200</pubDate> <link>https://ettoreciprian.com/project/2015/07/01/internetisdown.html</link> <guid isPermaLink="true">https://ettoreciprian.com/project/2015/07/01/internetisdown.html</guid> <category>project</category> </item> <item> <title>Forget me not</title> <description> &lt;p&gt;&lt;img class=&quot;responsive-img border-dashed &quot; src=&quot;/assets/images/forgetme.jpg&quot; alt=&quot;Forget me&quot; srcset=&quot; /assets/images/resized/forgetme-480.jpg 480w, /assets/images/resized/forgetme-900.jpg 900w, /assets/images/forgetme.jpg 1366w&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;em&gt;Forgetme&lt;/em&gt; tries to answer all of your most paranoid questions regarding your online life. Which of your accounts are public on the Internet? How easy is to be deleted?&lt;/p&gt; &lt;div class=&quot;decor decor-margin center&quot;&gt; &lt;span class=&quot;icon-clubs&quot;&gt;&lt;/span&gt; &lt;/div&gt; &lt;p&gt;Forgetme uses &lt;a href=&quot;https://pipl.com/dev/&quot;&gt;Pipl&lt;/a&gt; free API to find your email and/or name, then it cross-references the most probable results with &lt;a href=&quot;http://backgroundchecks.org/justdeleteme/en.html&quot;&gt;justdeleteme&lt;/a&gt; folder of accounts, rated by privacy policies of the service provider.&lt;/p&gt; </description> <pubDate>Wed, 01 Jul 2015 00:00:00 +0200</pubDate> <link>https://ettoreciprian.com/project/2015/07/01/forgetme.html</link> <guid isPermaLink="true">https://ettoreciprian.com/project/2015/07/01/forgetme.html</guid> <category>project</category> </item> </channel> </rss>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ettore Ciprian's Web Dungeon</title>
+    <description>Ettore Ciprian is a full stack developer living and studying in Berlin and likes movies and web projects of questionable features</description>
+    <link>http://ettoreciprian.com/</link>
+    <atom:link href="http://ettoreciprian.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 03 Sep 2017 23:24:33 +0200</pubDate>
+    <lastBuildDate>Sun, 03 Sep 2017 23:24:33 +0200</lastBuildDate>
+    <generator>Jekyll v3.4.2</generator>
+    
+      <item>
+        <title>L'arte del download</title>
+        <description>&lt;div class=&quot;banner border-dashed&quot;&gt;
+  &lt;h2 class=&quot;banner-title center&quot;&gt;DISCLAIMER&lt;/h2&gt;
+  &lt;p&gt;Nessun film è stato piratato, maltrattato o diretto da Michael Bay per questo articolo. Le applicazioni elencate sono perfettamente legali e utilizzabili per condividere ogni tipo di file che l'utente ritiene opportuno nei limiti della legge.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Scaricare film, musica e gli episodi della Pimpa. Pressati da amici annoiati e genitori assopiti sui divani, ogni sera ci poniamo di fronte ad uno schermo con le migliori intenzioni: vedere quell’episodio di Dr. House con il lupus.&lt;/p&gt;
+
+&lt;div class=&quot;responsive-gif center&quot;&gt;
+  &lt;p&gt;&lt;img alt=&quot;A funny gif&quot; src=&quot;https://media.giphy.com/media/D8HpyMMLzuPjW/giphy.gif&quot; width=&quot;100%&quot; height=&quot;100%&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; /&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;https://giphy.com/gifs/D8HpyMMLzuPjW&quot;&gt;via GIPHY&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Netflix indubbiamente la fa da padrone. Perchè ricorrere a programmi esterni o ad un post di Aranzulla quando ci si può integrare con il divano e lasciare che il sito ci porti automaticamente dalla nostra serie tv preferita ad un documentario sulle rocce in Molise. Se non sai di cosa sto parlando forse non hai mai visto &lt;em&gt;L’Uomo del Molise che Sussurava alle Rocce perchè non c’era nessun altro in Molise&lt;/em&gt;. O forse sei stufo delle battute sul Molise, e vuoi solo vederti un film. Ed ecco che, come in un deja-vù, ci troviamo di fronte al solito problema, espletato con voce petulante dall’amico di turno: “&lt;em&gt;Su Netflix non c’è questo film, no, non ho Amazon Prime e in streaming..&lt;/em&gt;”. Nel gergo tecnico, un film da vedere in streaming, quello che te lo ha consigliato il tuo amico Marco al bar l’altra sera, ti obbliga a combattere per una mezz’oretta con dei banner pubblicitari ed evitare i link fasulli come il guerriero virtuale che sei, l’occhio allenato da estenuanti delusioni e che semmai la finanza avesse accesso alla tua cronologia ti darebbe una coppa, in testa. Forse è per questo che Marco non ha un lavoro.&lt;/p&gt;
+
+&lt;p&gt;Ti restano quindi poche opzioni:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Comprare il film&lt;/strong&gt; o noleggiarlo su servizi come Amazon Prime e Netflix: pagheresti anche un fiorino per vedere &lt;a href=&quot;https://www.rottentomatoes.com/m/the_emoji_movie/&quot;&gt;una boiata pazzesca&lt;/a&gt;? Non tutti i film sono inoltre disponibili.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Cercarlo in streaming&lt;/strong&gt;: i buoni siti di streaming sono rari e poco duraturi.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Girare una versione&lt;/strong&gt; in casa: tanto abbiamo tutti le abilità teatrali di Mark Wahlberg dopo aver visto abbastanza esplosioni e genitali Transformers.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Continuare a leggere&lt;/strong&gt; questo articolo, perchè alla fine c’è una gif divertente.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Per quelli che sanno di cosa sto parlando e vogliono evitarsi altre battute rubate a Zelig 2009, possono passare direttamente al punto &lt;a href=&quot;#programs&quot;&gt;I programmi per il torrenting&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;cosè-un-torrent&quot;&gt;Cos’è un torrent?&lt;/h2&gt;
+
+&lt;p&gt;Un torrent è un semplice file che traccia il file e le sue fonti. Senza entrare troppo nei dettagli, è un file che ti permette di scaricare un contenuto digitale da più computer in una rete chiamata peer-to-peer, o come dice mia nonna, da pera a pera.&lt;/p&gt;
+
+&lt;p&gt;E’ facile trovare il file in questione su siti come &lt;em&gt;Google&lt;/em&gt;. Il file in questione deve avere l’estensione &lt;strong&gt;.torrent&lt;/strong&gt; e non essere chiaramente il titolo di una videocassetta per adulti, confrontabile dalla &lt;a href=&quot;http://nonciclopedia.wikia.com/wiki/NonLibri:Filmografia_porno&quot;&gt;lista ufficiale&lt;/a&gt;. Se specificato inoltre &lt;em&gt;ITA&lt;/em&gt; nei termini di ricerca, si può trovare il contenuto in italiano. Nota bene: non tutti i contenuti sono legalmente scaricabili in Italia (&lt;em&gt;blink&lt;/em&gt;), ed esistono siti appositi per la ricerca dei file non protetti da copyright (&lt;em&gt;blink blink&lt;/em&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Il file torrent non è il file completo!&lt;/strong&gt; Il file .torrent rappresenta il film sulla rete e occupa veramente poco spazio, infatti deve essere aperto da un programma apposito che scaricherà i file da chiunque lo stia condividendo in quel momento sulla rete, il che ci porta alla prossima sezione.&lt;/p&gt;
+
+&lt;h2 id=&quot;i-programmi-per-il-torrenting&quot;&gt;I programmi per il torrenting&lt;a name=&quot;programs&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;I programmi &lt;em&gt;client&lt;/em&gt; per scaricare file torrent sono molteplici. I più popolari posseggono principalmente le stesse funzioni: download del file, controllo della banda internet utilizzata o il controllo da remoto. Quelli a me noti e i preferiti sono elencati in seguito.&lt;/p&gt;
+
+&lt;div class=&quot;decor decor-margin center&quot;&gt;
+  &lt;pre&gt;&amp;#183;~~&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#10100;&amp;#10021;&amp;#10101;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;~~&amp;#183;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img class=&quot;&quot; src=&quot;http://i.utdstc.com/icons/256/qbittorrent-mac.png&quot; alt=&quot;qBittorrent&quot; title=&quot;qBittorrent&quot; width=&quot;64px&quot; height=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;qBittorrent è un client open surce multi piattaforma ricco di funzionalità.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Vantaggi&lt;/strong&gt;: Open Source e libero da pubblicità.
+&lt;strong&gt;Download&lt;/strong&gt;: &lt;a href=&quot;https://www.qbittorrent.org/download.php&quot;&gt;Sito ufficiale qBittorrent&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;decor decor-margin center&quot;&gt;
+  &lt;pre&gt;&amp;#183;~~&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#10100;&amp;#10021;&amp;#10101;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;~~&amp;#183;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img class=&quot;display-inline&quot; src=&quot;https://pbs.twimg.com/profile_images/377590624/Transmission.png&quot; alt=&quot;Tra&quot; title=&quot;Tra&quot; width=&quot;64px&quot; height=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Open Source, caratterizzato da una interfaccia minima e incredibilmente leggero. Non supporta tutte le funzionalità di qBittorrent, ma compensa con quello che è essenziale e le estensioni.&lt;/p&gt;
+
+&lt;div class=&quot;decor decor-margin center&quot;&gt;
+  &lt;pre&gt;&amp;#183;~~&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#10100;&amp;#10021;&amp;#10101;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;~~&amp;#183;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Vantaggi&lt;/strong&gt;: Open Source e leggero.
+&lt;strong&gt;Download&lt;/strong&gt;: &lt;a href=&quot;https://transmissionbt.com/download/&quot;&gt;Sito ufficiale di Transmission&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Una nuova funzione salta all’occhio per l’utilità: lo streaming istantaneo del file. Al contrario dei servizi di streaming, un download in peer-to-peer richiede che tutto il file sia completo prima della riproduzione. Richiede che tutte le parti del file siano state condivise e scaricate, visto che il download avviene a &lt;strong&gt;pacchetti&lt;/strong&gt; in base a diversi fattori. Con i programmi tradizionali, i file sopra scaricati non potranno essere riprodotti fino al completamento, il che potrebbe indispettire la vostra ragazza, che non esiterà a insultarvi mentre si sta ingozzando di pizza comodamente seduta sul divano.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 25 Jul 2017 11:25:25 +0200</pubDate>
+        <link>http://ettoreciprian.com/post/2017/07/25/artdownloading.html</link>
+        <guid isPermaLink="true">http://ettoreciprian.com/post/2017/07/25/artdownloading.html</guid>
+        
+        <category>torrent, download</category>
+        
+        
+        <category>post</category>
+        
+      </item>
+    
+      <item>
+        <title>Dtune Beta</title>
+        <description>
+&lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/resized/dtune-900.jpg&quot; alt=&quot;dtune&quot; srcset=&quot;            /assets/images/resized/dtune-480.jpg 480w,            /assets/images/resized/dtune-900.jpg 900w,    &quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dtune is my latest project, still in development. At the moment, I have released a working beta together with the starter of the project, the one and only David Tomic, that you can visit at &lt;a href=&quot;http://www.dtune.online&quot;&gt;dtune.online&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;decor decor-margin center&quot;&gt;
+  &lt;p&gt;&lt;span class=&quot;icon-clubs&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;What does Dtune do? It is a collaborative juke-box! Well, that does not really explain everything. It uses &lt;a href=&quot;https://www.pubnub.com/&quot;&gt;PubNub&lt;/a&gt; in order to publish song from your favorite Youtube playlist and receive votes, in order to push the most liked videos up in the queue. The desktop version acts as a manager, while the mobile version lists songs and allows the user to vote the next one. In the manager interface, you may login and import your favorite playlist form Youtube. If then you visit the same link on mobile devices or &lt;a href=&quot;http://www.dtune.online/mobile.html&quot;&gt;dtune mobile&lt;/a&gt;, you will be able to see your “stream”, and vote for the songs.&lt;/p&gt;
+
+&lt;p&gt;Give it a try at &lt;a href=&quot;http://www.dtune.online&quot;&gt;dtune.online&lt;/a&gt; and tell us what you think. Currently in development!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Mar 2017 00:00:00 +0100</pubDate>
+        <link>http://ettoreciprian.com/project/2017/03/01/dtune.html</link>
+        <guid isPermaLink="true">http://ettoreciprian.com/project/2017/03/01/dtune.html</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Studiospazio</title>
+        <description>
+&lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/resized/studiospazio-900.jpg&quot; alt=&quot;Studiospazio&quot; srcset=&quot;            /assets/images/resized/studiospazio-480.jpg 480w,            /assets/images/resized/studiospazio-900.jpg 900w,    &quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Studiospazio is a full screen gallery with responsive layout and lazy loading of the images.&lt;/p&gt;
+
+&lt;blockquote class=&quot;quote&quot; title=&quot;studiospazio.net&quot;&gt;
+  &lt;p&gt;“Studiospazio is the architectural practice established by Samuele Squassabia, Tao Baerlocher and Eugenio Squassabia. Studiospazio deals with the question of the relationship between architecture and the contemporary reality through projects, competitions, publications and the academic commitment”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The web page idea came as a collaboration between me and the commissioner, Studiospazio. It is designed to be simple and to work wit all devices screen sizes and orientations. It features a infinite scroll, with each project containing at least four images, and an action button on top to show description and plans of one studio’s project.&lt;/p&gt;
+
+&lt;p&gt;Regarding the implementation, the gallery is created thanks to the awesome and only &lt;a href=&quot;http://flickity.metafizzy.co/&quot;&gt;flickity&lt;/a&gt; library, while the lazy loading is achieved with &lt;a href=&quot;https://github.com/aFarkas/lazysizes&quot;&gt;lazysizes&lt;/a&gt;
+Check this project Github &lt;a href=&quot;https://github.com/platinumjesus/studiospazio&quot;&gt;repository&lt;/a&gt; for some juicy code.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+        <link>http://ettoreciprian.com/project/2017/01/01/studiospazio.html</link>
+        <guid isPermaLink="true">http://ettoreciprian.com/project/2017/01/01/studiospazio.html</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>No Internet Connection</title>
+        <description>
+&lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/resized/withoutinternet-900.jpg&quot; alt=&quot;A web presentation made with fullPage&quot; srcset=&quot;            /assets/images/resized/withoutinternet-480.jpg 480w,            /assets/images/resized/withoutinternet-900.jpg 900w,    &quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Internet is our precious source of information, what would happen if it went down? This &lt;a href=&quot;http://alvarotrigo.com/fullPage/#firstPage&quot;&gt;fullPage.js&lt;/a&gt; presentation tries to explain it in a not threatening way.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Jul 2015 00:00:00 +0200</pubDate>
+        <link>http://ettoreciprian.com/project/2015/07/01/internetisdown.html</link>
+        <guid isPermaLink="true">http://ettoreciprian.com/project/2015/07/01/internetisdown.html</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Forget me not</title>
+        <description>
+&lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/resized/forgetme-900.jpg&quot; alt=&quot;Forget me&quot; srcset=&quot;            /assets/images/resized/forgetme-480.jpg 480w,            /assets/images/resized/forgetme-900.jpg 900w,    &quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Forgetme&lt;/em&gt; tries to answer all of your most paranoid questions regarding your online life. Which of your accounts are public on the Internet? How easy is to be deleted?&lt;/p&gt;
+
+&lt;div class=&quot;decor decor-margin center&quot;&gt;
+  &lt;p&gt;&lt;span class=&quot;icon-clubs&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Forgetme uses &lt;a href=&quot;https://pipl.com/dev/&quot;&gt;Pipl&lt;/a&gt; free API to find your email and/or name, then it cross-references the most probable results with &lt;a href=&quot;http://backgroundchecks.org/justdeleteme/en.html&quot;&gt;justdeleteme&lt;/a&gt; folder of accounts, rated by privacy policies of the service provider.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Jul 2015 00:00:00 +0200</pubDate>
+        <link>http://ettoreciprian.com/project/2015/07/01/forgetme.html</link>
+        <guid isPermaLink="true">http://ettoreciprian.com/project/2015/07/01/forgetme.html</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+  </channel>
+</rss>

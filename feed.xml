@@ -2,16 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ettore Ciprian's Web Dungeon</title>
-    <description>Ettore Ciprian is a full stack developer living and studying in Berlin and likes movies and web projects of questionable features</description>
-    <link>http://0.0.0.0:4000/</link>
-    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 Sep 2017 23:38:56 +0200</pubDate>
-    <lastBuildDate>Sun, 03 Sep 2017 23:38:56 +0200</lastBuildDate>
+    <description>Ettore Ciprian is a full stack developer living and studying in Berlin and likes movies and web projects with questionable features</description>
+    <link>http://ettoreciprian.com/</link>
+    <atom:link href="http://ettoreciprian.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 04 Sep 2017 19:25:42 +0200</pubDate>
+    <lastBuildDate>Mon, 04 Sep 2017 19:25:42 +0200</lastBuildDate>
     <generator>Jekyll v3.4.2</generator>
     
       <item>
         <title>L'arte del download</title>
-        <description>&lt;div class=&quot;banner border-dashed&quot;&gt;
+        <description>
+&lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/blog/artofdownload.jpg&quot; alt=&quot;&quot; srcset=&quot;            /assets/images/resized/artofdownload-480.jpg 480w,    &quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;banner border-dashed&quot;&gt;
   &lt;h2 class=&quot;banner-title center&quot;&gt;DISCLAIMER&lt;/h2&gt;
   &lt;p&gt;Nessun film è stato piratato, maltrattato o diretto da Michael Bay per questo articolo. Le applicazioni elencate sono perfettamente legali e utilizzabili per condividere ogni tipo di file che l'utente ritiene opportuno nei limiti della legge.&lt;/p&gt;
 &lt;/div&gt;
@@ -19,8 +22,10 @@
 &lt;p&gt;Scaricare film, musica e gli episodi della Pimpa. Pressati da amici annoiati e genitori assopiti sui divani, ogni sera ci poniamo di fronte ad uno schermo con le migliori intenzioni: vedere quell’episodio di Dr. House con il lupus.&lt;/p&gt;
 
 &lt;div class=&quot;responsive-gif center&quot;&gt;
+
   &lt;p&gt;&lt;img alt=&quot;A funny gif&quot; src=&quot;https://media.giphy.com/media/D8HpyMMLzuPjW/giphy.gif&quot; width=&quot;100%&quot; height=&quot;100%&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; /&gt;&lt;/p&gt;
   &lt;p&gt;&lt;a href=&quot;https://giphy.com/gifs/D8HpyMMLzuPjW&quot;&gt;via GIPHY&lt;/a&gt;&lt;/p&gt;
+
 &lt;/div&gt;
 
 &lt;p&gt;Netflix indubbiamente la fa da padrone. Perchè ricorrere a programmi esterni o ad un post di Aranzulla quando ci si può integrare con il divano e lasciare che il sito ci porti automaticamente dalla nostra serie tv preferita ad un documentario sulle rocce in Molise. Se non sai di cosa sto parlando forse non hai mai visto &lt;em&gt;L’Uomo del Molise che Sussurava alle Rocce perchè non c’era nessun altro in Molise&lt;/em&gt;. O forse sei stufo delle battute sul Molise, e vuoi solo vederti un film. Ed ecco che, come in un deja-vù, ci troviamo di fronte al solito problema, espletato con voce petulante dall’amico di turno: “&lt;em&gt;Su Netflix non c’è questo film, no, non ho Amazon Prime e in streaming..&lt;/em&gt;”. Nel gergo tecnico, un film da vedere in streaming, quello che te lo ha consigliato il tuo amico Marco al bar l’altra sera, ti obbliga a combattere per una mezz’oretta con dei banner pubblicitari ed evitare i link fasulli come il guerriero virtuale che sei, l’occhio allenato da estenuanti delusioni e che semmai la finanza avesse accesso alla tua cronologia ti darebbe una coppa, in testa. Forse è per questo che Marco non ha un lavoro.&lt;/p&gt;
@@ -47,37 +52,85 @@
 
 &lt;p&gt;I programmi &lt;em&gt;client&lt;/em&gt; per scaricare file torrent sono molteplici. I più popolari posseggono principalmente le stesse funzioni: download del file, controllo della banda internet utilizzata o il controllo da remoto. Quelli a me noti e i preferiti sono elencati in seguito.&lt;/p&gt;
 
-&lt;div class=&quot;decor decor-margin center&quot;&gt;
-  &lt;pre&gt;&amp;#183;~~&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#10100;&amp;#10021;&amp;#10101;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;~~&amp;#183;&lt;/pre&gt;
+&lt;div class=&quot;flex-wrapper flex-center&quot;&gt;
+  &lt;div class=&quot;border-dashed two-columns column flex-center self-center&quot;&gt;
+
+    &lt;p&gt;&lt;img class=&quot;&quot; src=&quot;http://i.utdstc.com/icons/256/qbittorrent-mac.png&quot; alt=&quot;qBittorrent&quot; title=&quot;qBittorrent&quot; width=&quot;64px&quot; height=&quot;&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;qBittorrent&lt;/strong&gt; è un client open surce multi piattaforma ricco di funzionalità.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Vantaggi&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Open Source e libero da pubblicità.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Download&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://www.qbittorrent.org/download.php&quot;&gt;Sito ufficiale qBittorrent&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;border-dashed two-columns column flex-center self-center&quot;&gt;
+
+    &lt;p&gt;&lt;img class=&quot;&quot; src=&quot;https://pbs.twimg.com/profile_images/377590624/Transmission.png&quot; alt=&quot;Transmission&quot; title=&quot;Transmission&quot; width=&quot;64px&quot; height=&quot;&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Transmission&lt;/strong&gt; è caratterizzato da una interfaccia minima e incredibilmente leggero. Non supporta tutte le funzionalità di qBittorrent, ma compensa con quello che è essenziale e le estensioni.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Vantaggi&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Open Source, libero da pubblicità e leggero.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Download&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://transmissionbt.com/download/&quot;&gt;Sito ufficiale di Transmission&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;img class=&quot;&quot; src=&quot;http://i.utdstc.com/icons/256/qbittorrent-mac.png&quot; alt=&quot;qBittorrent&quot; title=&quot;qBittorrent&quot; width=&quot;64px&quot; height=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;qBittorrent è un client open surce multi piattaforma ricco di funzionalità.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Vantaggi&lt;/strong&gt;: Open Source e libero da pubblicità.
-&lt;strong&gt;Download&lt;/strong&gt;: &lt;a href=&quot;https://www.qbittorrent.org/download.php&quot;&gt;Sito ufficiale qBittorrent&lt;/a&gt;&lt;/p&gt;
-
 &lt;div class=&quot;decor decor-margin center&quot;&gt;
-  &lt;pre&gt;&amp;#183;~~&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#10100;&amp;#10021;&amp;#10101;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;~~&amp;#183;&lt;/pre&gt;
+  &lt;p&gt;&lt;span class=&quot;icon-spades&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;img class=&quot;display-inline&quot; src=&quot;https://pbs.twimg.com/profile_images/377590624/Transmission.png&quot; alt=&quot;Tra&quot; title=&quot;Tra&quot; width=&quot;64px&quot; height=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;C’è una ultima considerazione da fare, che ci porta alla conclusione di questo articolo. Al contrario dei servizi di streaming, un download in peer-to-peer richiede che tutto il file sia completo prima della riproduzione. Richiede che tutte le parti del file siano state condivise e scaricate, visto che il download avviene a &lt;strong&gt;pacchetti&lt;/strong&gt; in base a diversi fattori. Con i programmi tradizionali sopra elencati, i file sopra scaricati non potranno essere riprodotti fino al completamento, il che potrebbe indispettire il vostro partner, che non esiterà a insultarvi mentre trangugia pizza comodamente seduta sul divano, aspettando di lasciarvi.&lt;/p&gt;
 
-&lt;p&gt;Open Source, caratterizzato da una interfaccia minima e incredibilmente leggero. Non supporta tutte le funzionalità di qBittorrent, ma compensa con quello che è essenziale e le estensioni.&lt;/p&gt;
+&lt;p&gt;Lettore: &lt;em&gt;Che cosa ce lo dici a fare allora?&lt;/em&gt;&lt;br /&gt;
+Me: &lt;em&gt;Perchè c’è una soluzione finale e nel viaggio hai imparato qualcosa, no?&lt;/em&gt;&lt;br /&gt;
+Lettore: &lt;em&gt;Rispondimi con altre domande e ti ammazzo.&lt;/em&gt;&lt;br /&gt;
+Me: &lt;em&gt;Ok.&lt;/em&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;div class=&quot;decor decor-margin center&quot;&gt;
-  &lt;pre&gt;&amp;#183;~~&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#10100;&amp;#10021;&amp;#10101;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;&amp;#9552;~~&amp;#183;&lt;/pre&gt;
+&lt;h2 id=&quot;lo-streaming-dei-torrent&quot;&gt;Lo streaming dei .torrent&lt;/h2&gt;
+&lt;p&gt;I programmi in seguito permettono il video streaming, similmente agli odiosi servizi web, con la velocità e la purezza della rete BitTorrent. Non è sufficiente che trovare fare un copia incolla del file, et voilà, il download è incominciato. Ora possiamo zittire la nostra dolce metà, o i nostri amici, con un ghigno a testimoniare la nostra superiore capacità tecnica.&lt;/p&gt;
+
+&lt;div class=&quot;flex-wrapper flex-center&quot;&gt;
+  &lt;div class=&quot;border-dashed two-columns column flex-center self-center&quot;&gt;
+
+    &lt;p&gt;&lt;img class=&quot;&quot; src=&quot;https://popcorntime.sh/images/logo-valentines.png&quot; alt=&quot;PopcornTime&quot; title=&quot;PopcornTime&quot; width=&quot;64px&quot; height=&quot;&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;PopcornTime&lt;/strong&gt; è un client open surce multi-piattaforma da cui scegliere interi file da un catalogo ben fornito. Purtroppo i contenuti sono spesso in inglese, comunque &lt;em&gt;if u dont spik inglisc&lt;/em&gt; c’è sempre la possibilità di fare lo streaming dei propri file torrent.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Download&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Il sito attuale di PopcornTime, continuava a cambiare url, chissà perchè…
+&lt;a href=&quot;https://popcorntime.sh/it&quot;&gt;Sito ufficiale di PopcornTime&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;border-dashed two-columns column flex-center self-center&quot;&gt;
+
+    &lt;p&gt;&lt;img class=&quot;&quot; src=&quot;https://webtorrent.io/img/webtorrent-small.png&quot; alt=&quot;WebTorrent&quot; title=&quot;WebTorrent&quot; width=&quot;64px&quot; height=&quot;&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;WebTorrent&lt;/strong&gt; è semplice, velocissimo ed efficace. La mia scelta corrente in fatto di downloads. Basato su una libreria web, si connette alla rete BitTorrent e alle pagine web che lo supportano, per cui non è necessario neanche installare la versione desktop. Ancora in beta, è secondo me la scelta più rapida per lo streaming dei file torrent.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Download&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;https://webtorrent.io/desktop/&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://transmissionbt.com/download/&quot;&gt;Sito ufficiale di Transmission&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;strong&gt;Vantaggi&lt;/strong&gt;: Open Source e leggero.
-&lt;strong&gt;Download&lt;/strong&gt;: &lt;a href=&quot;https://transmissionbt.com/download/&quot;&gt;Sito ufficiale di Transmission&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Una nuova funzione salta all’occhio per l’utilità: lo streaming istantaneo del file. Al contrario dei servizi di streaming, un download in peer-to-peer richiede che tutto il file sia completo prima della riproduzione. Richiede che tutte le parti del file siano state condivise e scaricate, visto che il download avviene a &lt;strong&gt;pacchetti&lt;/strong&gt; in base a diversi fattori. Con i programmi tradizionali, i file sopra scaricati non potranno essere riprodotti fino al completamento, il che potrebbe indispettire la vostra ragazza, che non esiterà a insultarvi mentre si sta ingozzando di pizza comodamente seduta sul divano.&lt;/p&gt;
+&lt;p&gt;Ah si, la gif divertente.&lt;/p&gt;
+&lt;blockquote class=&quot;imgur-embed-pub&quot; lang=&quot;en&quot; data-id=&quot;sC2VPhp&quot;&gt;
+  &lt;p&gt;&lt;a href=&quot;//imgur.com/sC2VPhp&quot;&gt;Buzz Aldrin is all of us these days&lt;/a&gt;&amp;lt;/blockquote&amp;gt;&lt;script async=&quot;&quot; src=&quot;//s.imgur.com/min/embed.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
         <pubDate>Tue, 25 Jul 2017 11:25:25 +0200</pubDate>
-        <link>http://0.0.0.0:4000/post/2017/07/25/artdownloading.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/post/2017/07/25/artdownloading.html</guid>
+        <link>http://ettoreciprian.com/post/2017/07/25/artdownloading.html</link>
+        <guid isPermaLink="true">http://ettoreciprian.com/post/2017/07/25/artdownloading.html</guid>
         
         <category>torrent, download</category>
         
@@ -89,7 +142,7 @@
       <item>
         <title>Dtune Beta</title>
         <description>
-&lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/resized/dtune-900.jpg&quot; alt=&quot;dtune&quot; srcset=&quot;            /assets/images/resized/dtune-480.jpg 480w,            /assets/images/resized/dtune-900.jpg 900w,    &quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/dtune.jpg&quot; alt=&quot;dtune&quot; srcset=&quot;            /assets/images/resized/dtune-480.jpg 480w,            /assets/images/resized/dtune-900.jpg 900w,    &quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Dtune is my latest project, still in development. At the moment, I have released a working beta together with the starter of the project, the one and only David Tomic, that you can visit at &lt;a href=&quot;http://www.dtune.online&quot;&gt;dtune.online&lt;/a&gt;.&lt;/p&gt;
 
@@ -102,8 +155,8 @@
 &lt;p&gt;Give it a try at &lt;a href=&quot;http://www.dtune.online&quot;&gt;dtune.online&lt;/a&gt; and tell us what you think. Currently in development!&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Mar 2017 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/project/2017/03/01/dtune.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/project/2017/03/01/dtune.html</guid>
+        <link>http://ettoreciprian.com/project/2017/03/01/dtune.html</link>
+        <guid isPermaLink="true">http://ettoreciprian.com/project/2017/03/01/dtune.html</guid>
         
         
         <category>project</category>
@@ -113,7 +166,7 @@
       <item>
         <title>Studiospazio</title>
         <description>
-&lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/resized/studiospazio-900.jpg&quot; alt=&quot;Studiospazio&quot; srcset=&quot;            /assets/images/resized/studiospazio-480.jpg 480w,            /assets/images/resized/studiospazio-900.jpg 900w,    &quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/studiospazio.jpg&quot; alt=&quot;Studiospazio&quot; srcset=&quot;            /assets/images/resized/studiospazio-480.jpg 480w,            /assets/images/resized/studiospazio-900.jpg 900w,    &quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Studiospazio is a full screen gallery with responsive layout and lazy loading of the images.&lt;/p&gt;
 
@@ -127,8 +180,8 @@
 Check this project Github &lt;a href=&quot;https://github.com/platinumjesus/studiospazio&quot;&gt;repository&lt;/a&gt; for some juicy code.&lt;/p&gt;
 </description>
         <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/project/2017/01/01/studiospazio.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/project/2017/01/01/studiospazio.html</guid>
+        <link>http://ettoreciprian.com/project/2017/01/01/studiospazio.html</link>
+        <guid isPermaLink="true">http://ettoreciprian.com/project/2017/01/01/studiospazio.html</guid>
         
         
         <category>project</category>
@@ -138,13 +191,13 @@ Check this project Github &lt;a href=&quot;https://github.com/platinumjesus/stud
       <item>
         <title>No Internet Connection</title>
         <description>
-&lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/resized/withoutinternet-900.jpg&quot; alt=&quot;A web presentation made with fullPage&quot; srcset=&quot;            /assets/images/resized/withoutinternet-480.jpg 480w,            /assets/images/resized/withoutinternet-900.jpg 900w,    &quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/withoutinternet.jpg&quot; alt=&quot;A web presentation made with fullPage&quot; srcset=&quot;            /assets/images/resized/withoutinternet-480.jpg 480w,            /assets/images/resized/withoutinternet-900.jpg 900w,    &quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The Internet is our precious source of information, what would happen if it went down? This &lt;a href=&quot;http://alvarotrigo.com/fullPage/#firstPage&quot;&gt;fullPage.js&lt;/a&gt; presentation tries to explain it in a not threatening way.&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Jul 2015 00:00:00 +0200</pubDate>
-        <link>http://0.0.0.0:4000/project/2015/07/01/internetisdown.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/project/2015/07/01/internetisdown.html</guid>
+        <link>http://ettoreciprian.com/project/2015/07/01/internetisdown.html</link>
+        <guid isPermaLink="true">http://ettoreciprian.com/project/2015/07/01/internetisdown.html</guid>
         
         
         <category>project</category>
@@ -154,7 +207,7 @@ Check this project Github &lt;a href=&quot;https://github.com/platinumjesus/stud
       <item>
         <title>Forget me not</title>
         <description>
-&lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/resized/forgetme-900.jpg&quot; alt=&quot;Forget me&quot; srcset=&quot;            /assets/images/resized/forgetme-480.jpg 480w,            /assets/images/resized/forgetme-900.jpg 900w,    &quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/forgetme.jpg&quot; alt=&quot;Forget me&quot; srcset=&quot;            /assets/images/resized/forgetme-480.jpg 480w,            /assets/images/resized/forgetme-900.jpg 900w,    &quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Forgetme&lt;/em&gt; tries to answer all of your most paranoid questions regarding your online life. Which of your accounts are public on the Internet? How easy is to be deleted?&lt;/p&gt;
 
@@ -165,8 +218,8 @@ Check this project Github &lt;a href=&quot;https://github.com/platinumjesus/stud
 &lt;p&gt;Forgetme uses &lt;a href=&quot;https://pipl.com/dev/&quot;&gt;Pipl&lt;/a&gt; free API to find your email and/or name, then it cross-references the most probable results with &lt;a href=&quot;http://backgroundchecks.org/justdeleteme/en.html&quot;&gt;justdeleteme&lt;/a&gt; folder of accounts, rated by privacy policies of the service provider.&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Jul 2015 00:00:00 +0200</pubDate>
-        <link>http://0.0.0.0:4000/project/2015/07/01/forgetme.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/project/2015/07/01/forgetme.html</guid>
+        <link>http://ettoreciprian.com/project/2015/07/01/forgetme.html</link>
+        <guid isPermaLink="true">http://ettoreciprian.com/project/2015/07/01/forgetme.html</guid>
         
         
         <category>project</category>

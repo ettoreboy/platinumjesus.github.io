@@ -18,5 +18,6 @@ gem "jekyll"
 group :jekyll_plugins do
  gem "html-proofer"
  gem "jekyll-responsive-image"
+ gem "amp-jekyll"
  gem "jekyll-sitemap"
 end

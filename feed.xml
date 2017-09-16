@@ -5,8 +5,8 @@
     <description>Ettore Ciprian is a full stack developer living and studying in Berlin and likes movies and web projects with questionable features</description>
     <link>http://ettoreciprian.com/</link>
     <atom:link href="http://ettoreciprian.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 16 Sep 2017 18:58:07 +0200</pubDate>
-    <lastBuildDate>Sat, 16 Sep 2017 18:58:07 +0200</lastBuildDate>
+    <pubDate>Sat, 16 Sep 2017 19:06:22 +0200</pubDate>
+    <lastBuildDate>Sat, 16 Sep 2017 19:06:22 +0200</lastBuildDate>
     <generator>Jekyll v3.4.2</generator>
     
       <item>
@@ -55,7 +55,7 @@
 &lt;div class=&quot;flex-wrapper flex-center&quot;&gt;
   &lt;div class=&quot;border-dashed two-columns column flex-center self-center&quot;&gt;
 
-    &lt;p&gt;&lt;img class=&quot;&quot; src=&quot;http://i.utdstc.com/icons/256/qbittorrent-mac.png&quot; alt=&quot;qBittorrent&quot; title=&quot;qBittorrent&quot; width=&quot;64px&quot; height=&quot;&quot; /&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;img class=&quot;&quot; src=&quot;http://i.utdstc.com/icons/256/qbittorrent-mac.png&quot; alt=&quot;qBittorrent&quot; title=&quot;qBittorrent&quot; width=&quot;64px&quot; height=&quot;&quot; layout=&quot;fill&quot; /&gt;&lt;/p&gt;
 
     &lt;p&gt;&lt;strong&gt;qBittorrent&lt;/strong&gt; è un client open surce multi piattaforma ricco di funzionalità.&lt;/p&gt;
 
@@ -69,7 +69,7 @@
   &lt;/div&gt;
   &lt;div class=&quot;border-dashed two-columns column flex-center self-center&quot;&gt;
 
-    &lt;p&gt;&lt;img class=&quot;&quot; src=&quot;https://pbs.twimg.com/profile_images/377590624/Transmission.png&quot; alt=&quot;Transmission&quot; title=&quot;Transmission&quot; width=&quot;64px&quot; height=&quot;&quot; /&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;img class=&quot;&quot; src=&quot;https://pbs.twimg.com/profile_images/377590624/Transmission.png&quot; alt=&quot;Transmission&quot; title=&quot;Transmission&quot; width=&quot;64px&quot; height=&quot;&quot; layout=&quot;fill&quot; /&gt;&lt;/p&gt;
 
     &lt;p&gt;&lt;strong&gt;Transmission&lt;/strong&gt; è caratterizzato da una interfaccia minima e incredibilmente leggero. Non supporta tutte le funzionalità di qBittorrent, ma compensa con quello che è essenziale e le estensioni.&lt;/p&gt;
 
@@ -100,7 +100,7 @@ Me: &lt;em&gt;Ok.&lt;/em&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;div class=&quot;flex-wrapper flex-center&quot;&gt;
   &lt;div class=&quot;border-dashed two-columns column flex-center self-center&quot;&gt;
 
-    &lt;p&gt;&lt;img class=&quot;&quot; src=&quot;https://popcorntime.sh/images/logo-valentines.png&quot; alt=&quot;PopcornTime&quot; title=&quot;PopcornTime&quot; width=&quot;64px&quot; height=&quot;64px&quot; /&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;img class=&quot;&quot; src=&quot;https://popcorntime.sh/images/logo-valentines.png&quot; alt=&quot;PopcornTime&quot; title=&quot;PopcornTime&quot; width=&quot;64px&quot; height=&quot;64px&quot; layout=&quot;fill&quot; /&gt;&lt;/p&gt;
 
     &lt;p&gt;&lt;strong&gt;PopcornTime&lt;/strong&gt; è un client open surce multi-piattaforma da cui scegliere interi file da un catalogo ben fornito. Purtroppo i contenuti sono spesso in inglese, comunque &lt;em&gt;if u dont spik inglisc&lt;/em&gt; c’è sempre la possibilità di fare lo streaming dei propri file torrent.&lt;/p&gt;
 
@@ -111,7 +111,7 @@ Me: &lt;em&gt;Ok.&lt;/em&gt;&lt;br /&gt;&lt;/p&gt;
   &lt;/div&gt;
   &lt;div class=&quot;border-dashed two-columns column flex-center self-center&quot;&gt;
 
-    &lt;p&gt;&lt;img class=&quot;&quot; src=&quot;https://webtorrent.io/img/webtorrent-small.png&quot; alt=&quot;WebTorrent&quot; title=&quot;WebTorrent&quot; width=&quot;64px&quot; height=&quot;64px&quot; /&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;img class=&quot;&quot; src=&quot;https://webtorrent.io/img/webtorrent-small.png&quot; alt=&quot;WebTorrent&quot; title=&quot;WebTorrent&quot; width=&quot;64px&quot; height=&quot;64px&quot; layout=&quot;fill&quot; /&gt;&lt;/p&gt;
 
     &lt;p&gt;&lt;strong&gt;WebTorrent&lt;/strong&gt; è semplice, velocissimo ed efficace. La mia scelta corrente in fatto di downloads. Basato su una libreria web, si connette alla rete BitTorrent e alle pagine web che lo supportano, per cui non è necessario neanche installare la versione desktop. Ancora in beta, è secondo me la scelta più rapida per lo streaming dei file torrent.&lt;/p&gt;
 

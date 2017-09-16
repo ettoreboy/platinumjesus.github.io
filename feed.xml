@@ -5,14 +5,14 @@
     <description>Ettore Ciprian is a full stack developer living and studying in Berlin and likes movies and web projects with questionable features</description>
     <link>http://ettoreciprian.com/</link>
     <atom:link href="http://ettoreciprian.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 16 Sep 2017 18:42:37 +0200</pubDate>
-    <lastBuildDate>Sat, 16 Sep 2017 18:42:37 +0200</lastBuildDate>
+    <pubDate>Sat, 16 Sep 2017 18:58:07 +0200</pubDate>
+    <lastBuildDate>Sat, 16 Sep 2017 18:58:07 +0200</lastBuildDate>
     <generator>Jekyll v3.4.2</generator>
     
       <item>
         <title>L'arte del download</title>
         <description>
-&lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/blog/artofdownload.jpg&quot; alt=&quot;The Art of Download&quot; srcset=&quot;            /assets/images/resized/artofdownload-480.jpg 480w,    &quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/blog/artofdownload.jpg&quot; alt=&quot;The Art of Download&quot; srcset=&quot;            /assets/images/resized/artofdownload-480.jpg 480w,    &quot; layout=&quot;fill&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;banner border-dashed&quot;&gt;
   &lt;h2 class=&quot;banner-title center&quot;&gt;DISCLAIMER&lt;/h2&gt;
@@ -142,7 +142,7 @@ Me: &lt;em&gt;Ok.&lt;/em&gt;&lt;br /&gt;&lt;/p&gt;
       <item>
         <title>Dtune Beta</title>
         <description>
-&lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/dtune.jpg&quot; alt=&quot;dtune&quot; srcset=&quot;            /assets/images/resized/dtune-480.jpg 480w,            /assets/images/resized/dtune-900.jpg 900w,    &quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/dtune.jpg&quot; alt=&quot;dtune&quot; srcset=&quot;            /assets/images/resized/dtune-480.jpg 480w,            /assets/images/resized/dtune-900.jpg 900w,    &quot; layout=&quot;fill&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Dtune is my latest project, still in development. At the moment, I have released a working beta together with the starter of the project, the one and only David Tomic, that you can visit at &lt;a href=&quot;http://www.dtune.online&quot;&gt;dtune.online&lt;/a&gt;.&lt;/p&gt;
 
@@ -166,7 +166,7 @@ Me: &lt;em&gt;Ok.&lt;/em&gt;&lt;br /&gt;&lt;/p&gt;
       <item>
         <title>Studiospazio</title>
         <description>
-&lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/studiospazio.jpg&quot; alt=&quot;Studiospazio&quot; srcset=&quot;            /assets/images/resized/studiospazio-480.jpg 480w,            /assets/images/resized/studiospazio-900.jpg 900w,    &quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/studiospazio.jpg&quot; alt=&quot;Studiospazio&quot; srcset=&quot;            /assets/images/resized/studiospazio-480.jpg 480w,            /assets/images/resized/studiospazio-900.jpg 900w,    &quot; layout=&quot;fill&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Studiospazio is a full screen gallery with responsive layout and lazy loading of the images.&lt;/p&gt;
 
@@ -191,7 +191,7 @@ Check this project Github &lt;a href=&quot;https://github.com/platinumjesus/stud
       <item>
         <title>No Internet Connection</title>
         <description>
-&lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/withoutinternet.jpg&quot; alt=&quot;A web presentation made with fullPage&quot; srcset=&quot;            /assets/images/resized/withoutinternet-480.jpg 480w,            /assets/images/resized/withoutinternet-900.jpg 900w,    &quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/withoutinternet.jpg&quot; alt=&quot;A web presentation made with fullPage&quot; srcset=&quot;            /assets/images/resized/withoutinternet-480.jpg 480w,            /assets/images/resized/withoutinternet-900.jpg 900w,    &quot; layout=&quot;fill&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The Internet is our precious source of information, what would happen if it went down? This &lt;a href=&quot;http://alvarotrigo.com/fullPage/#firstPage&quot;&gt;fullPage.js&lt;/a&gt; presentation tries to explain it in a not threatening way.&lt;/p&gt;
 </description>
@@ -207,7 +207,7 @@ Check this project Github &lt;a href=&quot;https://github.com/platinumjesus/stud
       <item>
         <title>Forget me not</title>
         <description>
-&lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/forgetme.jpg&quot; alt=&quot;Forget me&quot; srcset=&quot;            /assets/images/resized/forgetme-480.jpg 480w,            /assets/images/resized/forgetme-900.jpg 900w,    &quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/forgetme.jpg&quot; alt=&quot;Forget me&quot; srcset=&quot;            /assets/images/resized/forgetme-480.jpg 480w,            /assets/images/resized/forgetme-900.jpg 900w,    &quot; layout=&quot;fill&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Forgetme&lt;/em&gt; tries to answer all of your most paranoid questions regarding your online life. Which of your accounts are public on the Internet? How easy is to be deleted?&lt;/p&gt;
 

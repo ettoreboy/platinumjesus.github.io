@@ -16,8 +16,11 @@ gem "jekyll"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
- gem "html-proofer"
  gem "jekyll-responsive-image"
  gem "amp-jekyll"
  gem "jekyll-sitemap"
+end
+
+group :test do
+ gem "html-proofer"
 end

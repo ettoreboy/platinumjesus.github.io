@@ -5,26 +5,97 @@
     <description>Ettore Ciprian is a full stack developer living and studying in Berlin and likes movies and web projects with questionable features</description>
     <link>http://ettoreciprian.com/</link>
     <atom:link href="http://ettoreciprian.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 Sep 2017 19:15:29 +0200</pubDate>
-    <lastBuildDate>Mon, 18 Sep 2017 19:15:29 +0200</lastBuildDate>
-    <generator>Jekyll v3.4.2</generator>
+    <pubDate>Fri, 27 Oct 2017 10:08:08 +0000</pubDate>
+    <lastBuildDate>Fri, 27 Oct 2017 10:08:08 +0000</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>(auto) download</title>
+        <description>&lt;div class=&quot;column banner banner-tldr&quot;&gt;
+  &lt;p&gt;&lt;span class=&quot;span-tldr&quot;&gt;TL;DR&lt;/span&gt; - Troppo Lungo, Daje Riassumi.&lt;/p&gt;
+  &lt;p&gt;Scaricare serie tv o file automaticamente tramite torrent è facile. Basta creare un feed Rss con la lista delle nostre serie tv preferite su &lt;a href=&quot;http://showrss.info&quot;&gt;showRSS&lt;/a&gt; ed inserirlo in qBitorrent o un programma simile. Appena uscito un nuovo episodio verrà subito messo in download.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;!-- &lt;div class=&quot;decor-mono decor-margin center&quot;&gt;
+   &lt;svg width=&quot;33.01mm&quot; height=&quot;56.395mm&quot; version=&quot;1.1&quot; viewBox=&quot;0 -0.2 33.00959 56.394516&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
+ &lt;g transform=&quot;translate(-82.881 -4.5755)&quot;&gt;
+  &lt;text x=&quot;67.127777&quot; y=&quot;60.506744&quot; fill=&quot;#000000&quot; font-family=&quot;sans-serif&quot; font-size=&quot;76.997px&quot; letter-spacing=&quot;0px&quot; stroke-width=&quot;1.9249px&quot; word-spacing=&quot;0px&quot; style=&quot;line-height:125%&quot; xml:space=&quot;preserve&quot;&gt;&lt;tspan x=&quot;67.127777&quot; y=&quot;60.506744&quot; stroke-width=&quot;1.9249px&quot;&gt;⇣&lt;/tspan&gt;&lt;/text&gt;
+ &lt;/g&gt;
+&lt;/svg&gt;
+
+&lt;/div&gt; --&gt;
+
+&lt;p&gt;Se hai letto il mio &lt;a href=&quot;/post/2017/07/25/artdownloading.html&quot;&gt;post&lt;/a&gt; precedente saprai cosa sono e quanto è facile scaricare tramite applicazioni torrent, quali qBitorrent e Webtorrent.&lt;br /&gt;
+Nel video tutorial seguente ti propongo una semplice guida su come impostare qBitorrent allo scaricamento automatico degli ultimi episodi della tua serie preferita, che sia anche &lt;em&gt;The Walking Dad&lt;/em&gt;, &lt;em&gt;Dr. Lupus&lt;/em&gt;, &lt;em&gt;Narco(lessia) - la terza stagione&lt;/em&gt; o &lt;em&gt;Quella cosa di Lory del Santo&lt;/em&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;responsive-gif center&quot;&gt;
+
+  &lt;p&gt;&lt;img alt=&quot;A funny gif&quot; src=&quot;https://media.giphy.com/media/oPVqKGwziOURq/giphy.gif&quot; class=&quot;giphy-embed&quot; /&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;https://giphy.com/gifs/oPVqKGwziOURq&quot;&gt;via GIPHY&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Il tutto è spiegato nel video, ma se non vuoi darmi un altro click sul mio canale, te lo spiego alla vecchia maniera con degli screenshots. &lt;em&gt;Cheap bastard&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;creare-il-feed-rss&quot;&gt;Creare il feed Rss&lt;/h2&gt;
+
+&lt;p&gt;Il sito che utilizzo, per semplicità, è &lt;a href=&quot;http://showrss.info&quot;&gt;showRSS.info&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;img-container&quot;&gt;
+  &lt;p&gt;&lt;img class=&quot;responsive-img   &quot; src=&quot;/assets/images/blog/show-rss1.PNG&quot; alt=&quot;Screenshot 1&quot; srcset=&quot;            /assets/images/resized/show-rss1-480.PNG 480w,            /assets/images/resized/show-rss1-900.PNG 900w,    &quot; layout=&quot;fill&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Una volta registrati si possono scegliere le serie tv preferite, aggiungerle alla lista e creare cosi un feed. Basta poi cliccare su &lt;strong&gt;My Feed&lt;/strong&gt; per vedere il link da copiare. Quest’ultimo rimane invariato, possiamo infatti aggiungere altre serie tv nel tempo senza dover riconfigurare il tutto. &lt;em&gt;Ci mancherebbe&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;aggiungere-il-feed-a-qbitorrent&quot;&gt;Aggiungere il feed a qBitorrent&lt;/h2&gt;
+&lt;p&gt;Una volta abilitato sotto &lt;strong&gt;Visualizza&lt;/strong&gt; ➝ &lt;strong&gt;Lettore Rss&lt;/strong&gt;, possiamo aggiungere il nostro link sopra generato cliccando su &lt;strong&gt;Nuova iscrizione&lt;/strong&gt;. Da questo momento avremo sempre a disposizione una lista aggiornata dei nostri torrent preferiti, direttamente nel programma. Basta cliccarci sopra due volte per aggiungere il tutto in download. &lt;em&gt;Wow&lt;/em&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;img-container&quot;&gt;
+  &lt;p&gt;&lt;img class=&quot;responsive-img   &quot; src=&quot;/assets/images/blog/qbitorrent-rss1.PNG&quot; alt=&quot;Screenshot 2&quot; srcset=&quot;            /assets/images/resized/qbitorrent-rss1-480.PNG 480w,            /assets/images/resized/qbitorrent-rss1-900.PNG 900w,    &quot; layout=&quot;fill&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;nerdate-aggiuntive&quot;&gt;Nerdate aggiuntive&lt;/h2&gt;
+
+&lt;p&gt;Smanettando con le impostazioni sull’iscrizione RSS sotto &lt;strong&gt;Gestore download RSS&lt;/strong&gt; si possono creare regole per lo scarimento automatico. Usando delle &lt;em&gt;espressioni regolari&lt;/em&gt; si può istruire il programma per mettere in download file contenenti specifiche parole appena avviato.&lt;/p&gt;
+
+&lt;div class=&quot;img-container&quot;&gt;
+  &lt;p&gt;&lt;img class=&quot;&quot; src=&quot;/assets/images/blog/qbitorrent-rss2.PNG&quot; alt=&quot;Screenshot 3&quot; title=&quot;Screenshot 3&quot; width=&quot;818px&quot; height=&quot;569px&quot; layout=&quot;fill&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+        <pubDate>Wed, 25 Oct 2017 07:25:00 +0000</pubDate>
+        <link>http://ettoreciprian.com/post/2017/10/25/autodownloading.html</link>
+        <guid isPermaLink="true">http://ettoreciprian.com/post/2017/10/25/autodownloading.html</guid>
+        
+        <category>torrent, download</category>
+        
+        
+        <category>post</category>
+        
+      </item>
     
       <item>
         <title>L'arte del download</title>
-        <description>
-&lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/blog/artofdownload.jpg&quot; alt=&quot;The Art of Download&quot; srcset=&quot;            /assets/images/resized/artofdownload-480.jpg 480w,    &quot; layout=&quot;fill&quot; /&gt;&lt;/p&gt;
+        <description>&lt;div class=&quot;column banner banner-tldr&quot;&gt;
+  &lt;p&gt;&lt;span class=&quot;span-tldr&quot;&gt;TL;DR&lt;/span&gt; - Troppo Lungo, Daje Riassumi.&lt;/p&gt;
+  &lt;p&gt;Scaricare contenuti e metterli in streaming è facile ed meglio con programmi di &lt;em&gt;torrenting&lt;/em&gt;, come quelli da me consigliati qBitorrent e Webtorrent.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;img-container&quot;&gt;
+  &lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/blog/artofdownload.jpg&quot; alt=&quot;The Art of Download&quot; srcset=&quot;            /assets/images/resized/artofdownload-480.jpg 480w,    &quot; layout=&quot;fill&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
 
 &lt;div class=&quot;banner border-dashed&quot;&gt;
   &lt;h2 class=&quot;banner-title center&quot;&gt;DISCLAIMER&lt;/h2&gt;
   &lt;p&gt;Nessun film è stato piratato, maltrattato o diretto da Michael Bay per questo articolo. Le applicazioni elencate sono perfettamente legali e utilizzabili per condividere ogni tipo di file che l'utente ritiene opportuno nei limiti della legge.&lt;/p&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Netflix indubbiamente la fa da padrone. Perchè ricorrere ad un post di Aranzulla quando ci si può integrare con il divano e lasciare che il sito ci porti automaticamente dalla nostra serie tv preferita ad un documentario sulle rocce in Molise. Se non sai di cosa sto parlando forse non hai mai visto &lt;em&gt;L’Uomo del Molise che Sussurava alle Rocce perchè non c’era nessun altro in Molise&lt;/em&gt;. O forse sei stufo delle battute sul Molise, e vuoi solo vederti un film. Ed ecco che, come in un deja-vù, ci troviamo di fronte al solito problema, spiegato con voce petulante dall’amico di turno: “&lt;em&gt;Su Netflix non c’è questo film, no, non ho Amazon Prime e in streaming..&lt;/em&gt;”. Nel gergo tecnico, un film da vedere in streaming, quello che te lo ha consigliato il tuo amico Marco al bar l’altra sera, ti obbliga a combattere per una mezz’oretta con dei banner pubblicitari ed evitare i link fasulli come il guerriero virtuale che sei, l’occhio allenato da estenuanti delusioni e che semmai la finanza avesse accesso alla tua cronologia ti darebbe una coppa, in testa. Forse è per questo che Marco non ha un lavoro.&lt;/p&gt;
+&lt;p&gt;Netflix indubbiamente la fa da padrone quando vogliamo vedere un film al giorno d’oggi. Ed ecco che, come in un deja-vù, ci troviamo di fronte al solito problema, spiegato con voce petulante dall’amico di turno: “&lt;em&gt;Su Netflix non c’è questo film..&lt;/em&gt;”. Se Netflix ci delude, Italia 1 ci bombarda di pubblicità, Sky del vicino non prende perchè ti ha colto in flagrante nel suo salotto intento a stendere cavi, perchè allora non ricorrere ad un post di San Aranzulla? Magari nemmeno il vero santo patrono degli italiani ha una vera soluzione, immediata. Magari bisogna vedere un film in streaming. Nel gergo tecnico, un film in streaming, quello che te lo ha consigliato il tuo amico Marco al bar l’altra sera, ti obbliga a combattere per una mezz’oretta con dei banner pubblicitari ed evitare i link fasulli come il guerriero virtuale che sei, l’occhio allenato da estenuanti click e finti video, e che semmai la finanza avesse accesso alla tua cronologia ti darebbe una coppa, in testa. Forse è per questo che Marco non ha un lavoro.&lt;/p&gt;
 
 &lt;p&gt;Ti restano quindi poche opzioni:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Comprare il film&lt;/strong&gt; o noleggiarlo su servizi come Amazon Prime e Netflix: pagheresti anche un fiorino per vedere &lt;a href=&quot;https://www.rottentomatoes.com/m/the_emoji_movie/&quot;&gt;una boiata pazzesca&lt;/a&gt;? Non tutti i film sono inoltre disponibili.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Cercarlo in streaming&lt;/strong&gt;: i buoni siti di streaming sono rari e poco duraturi.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Comprare il film&lt;/strong&gt; o noleggiarlo su servizi come Amazon Prime: pagheresti anche un fiorino per vedere &lt;a href=&quot;https://www.rottentomatoes.com/m/the_emoji_movie/&quot;&gt;una boiata pazzesca&lt;/a&gt;? Non tutti i film sono inoltre disponibili.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Cercarlo in streaming&lt;/strong&gt;: i buoni siti di streaming sono rari e poco duraturi, oltre che pieni di fastidiose pubblicità.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Girare una versione&lt;/strong&gt; in casa: tanto abbiamo tutti le abilità teatrali di Mark Wahlberg dopo aver visto abbastanza esplosioni e genitali Transformers.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Continuare a leggere&lt;/strong&gt; questo articolo, perchè alla fine c’è una gif divertente.&lt;/li&gt;
 &lt;/ul&gt;
@@ -33,7 +104,7 @@
 
 &lt;div class=&quot;responsive-gif center&quot;&gt;
 
-  &lt;p&gt;&lt;img alt=&quot;A funny gif&quot; src=&quot;https://media.giphy.com/media/D8HpyMMLzuPjW/giphy.gif&quot; width=&quot;100%&quot; height=&quot;100%&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; /&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;img alt=&quot;A funny gif&quot; src=&quot;https://media.giphy.com/media/D8HpyMMLzuPjW/giphy.gif&quot; class=&quot;giphy-embed&quot; /&gt;&lt;/p&gt;
   &lt;p&gt;&lt;a href=&quot;https://giphy.com/gifs/D8HpyMMLzuPjW&quot;&gt;via GIPHY&lt;/a&gt;&lt;/p&gt;
 
 &lt;/div&gt;
@@ -44,7 +115,7 @@
 
 &lt;p&gt;E’ facile trovare il file in questione su siti come &lt;em&gt;Google&lt;/em&gt;. Il file in questione deve avere l’estensione &lt;strong&gt;.torrent&lt;/strong&gt; e non essere chiaramente il titolo di una videocassetta per adulti, confrontabile dalla &lt;a href=&quot;http://nonciclopedia.wikia.com/wiki/NonLibri:Filmografia_porno&quot;&gt;lista ufficiale&lt;/a&gt;. Se specificato inoltre &lt;em&gt;ITA&lt;/em&gt; nei termini di ricerca, si può trovare il contenuto in italiano. Nota bene: non tutti i contenuti sono legalmente scaricabili in Italia (&lt;em&gt;blink&lt;/em&gt;), ed esistono siti appositi per la ricerca dei file non protetti da copyright (&lt;em&gt;blink blink&lt;/em&gt;).&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Il file torrent non è il file completo!&lt;/strong&gt; Il file .torrent rappresenta il film sulla rete e occupa veramente poco spazio, infatti deve essere aperto da un programma apposito che scaricherà i file da chiunque lo stia condividendo in quel momento sulla rete, il che ci porta alla prossima sezione.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Il file torrent non è il file completo!&lt;/strong&gt; Il file .torrent rappresenta il film sulla rete e occupa veramente poco spazio, infatti deve essere aperto da un programma apposito che scaricherà i file da chiunque lo stia condividendo in quel momento, il che ci porta alla prossima sezione.&lt;/p&gt;
 
 &lt;h2 id=&quot;i-programmi-per-il-torrenting&quot;&gt;I programmi per il torrenting&lt;a name=&quot;programs&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 
@@ -53,7 +124,7 @@
 &lt;div class=&quot;flex-wrapper flex-center&quot;&gt;
   &lt;div class=&quot;border-dashed two-columns column flex-center self-center&quot;&gt;
 
-    &lt;p&gt;&lt;img class=&quot;&quot; src=&quot;http://i.utdstc.com/icons/256/qbittorrent-mac.png&quot; alt=&quot;qBittorrent&quot; title=&quot;qBittorrent&quot; width=&quot;64px&quot; height=&quot;&quot; layout=&quot;fill&quot; /&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;img class=&quot;&quot; src=&quot;http://i.utdstc.com/icons/256/qbittorrent-mac.png&quot; alt=&quot;qBittorrent&quot; title=&quot;qBittorrent&quot; width=&quot;64px&quot; height=&quot;560px&quot; layout=&quot;fill&quot; /&gt;&lt;/p&gt;
 
     &lt;p&gt;&lt;strong&gt;qBittorrent&lt;/strong&gt; è un client open surce multi piattaforma ricco di funzionalità.&lt;/p&gt;
 
@@ -67,7 +138,7 @@
   &lt;/div&gt;
   &lt;div class=&quot;border-dashed two-columns column flex-center self-center&quot;&gt;
 
-    &lt;p&gt;&lt;img class=&quot;&quot; src=&quot;https://pbs.twimg.com/profile_images/377590624/Transmission.png&quot; alt=&quot;Transmission&quot; title=&quot;Transmission&quot; width=&quot;64px&quot; height=&quot;&quot; layout=&quot;fill&quot; /&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;img class=&quot;&quot; src=&quot;https://pbs.twimg.com/profile_images/377590624/Transmission.png&quot; alt=&quot;Transmission&quot; title=&quot;Transmission&quot; width=&quot;64px&quot; height=&quot;560px&quot; layout=&quot;fill&quot; /&gt;&lt;/p&gt;
 
     &lt;p&gt;&lt;strong&gt;Transmission&lt;/strong&gt; è caratterizzato da una interfaccia minima e incredibilmente leggero. Non supporta tutte le funzionalità di qBittorrent, ma compensa con quello che è essenziale e le estensioni.&lt;/p&gt;
 
@@ -87,9 +158,9 @@
 
 &lt;p&gt;C’è una ultima considerazione da fare, che ci porta alla conclusione di questo articolo. Al contrario dei servizi di streaming, un download in peer-to-peer richiede che tutto il file sia completo prima della riproduzione. Richiede che tutte le parti del file siano state condivise e scaricate, visto che il download avviene a &lt;strong&gt;pacchetti&lt;/strong&gt; in base a diversi fattori. Con i programmi tradizionali sopra elencati, i file sopra scaricati non potranno essere riprodotti fino al completamento, il che potrebbe indispettire il vostro partner, che non esiterà a insultarvi mentre trangugia pizza comodamente seduta sul divano, aspettando di lasciarvi.&lt;/p&gt;
 
-&lt;p&gt;Lettore: &lt;em&gt;Che cosa ce lo dici a fare allora?&lt;/em&gt;&lt;br /&gt;
-Me: &lt;em&gt;Perchè c’è una soluzione finale e nel viaggio hai imparato qualcosa, no?&lt;/em&gt;&lt;br /&gt;
-Lettore: &lt;em&gt;Rispondimi con altre domande e ti ammazzo.&lt;/em&gt;&lt;br /&gt;
+&lt;p&gt;Lettore: &lt;em&gt;Che cosa ce lo dici a fare allora?&lt;/em&gt;&lt;br /&gt;&lt;br /&gt;
+Me: &lt;em&gt;Perchè c’è una soluzione finale e nel viaggio hai imparato qualcosa, no?&lt;/em&gt;&lt;br /&gt;&lt;br /&gt;
+Lettore: &lt;em&gt;Rispondimi con altre domande e ti ammazzo.&lt;/em&gt;&lt;br /&gt;&lt;br /&gt;
 Me: &lt;em&gt;Ok.&lt;/em&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;lo-streaming-dei-torrent&quot;&gt;Lo streaming dei .torrent&lt;/h2&gt;
@@ -126,7 +197,7 @@ Me: &lt;em&gt;Ok.&lt;/em&gt;&lt;br /&gt;&lt;/p&gt;
   &lt;p&gt;&lt;a href=&quot;//imgur.com/sC2VPhp&quot;&gt;Buzz Aldrin is all of us these days&lt;/a&gt;&amp;lt;/blockquote&amp;gt;&lt;script async=&quot;&quot; src=&quot;//s.imgur.com/min/embed.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
-        <pubDate>Tue, 25 Jul 2017 11:25:25 +0200</pubDate>
+        <pubDate>Tue, 25 Jul 2017 09:25:25 +0000</pubDate>
         <link>http://ettoreciprian.com/post/2017/07/25/artdownloading.html</link>
         <guid isPermaLink="true">http://ettoreciprian.com/post/2017/07/25/artdownloading.html</guid>
         
@@ -140,7 +211,9 @@ Me: &lt;em&gt;Ok.&lt;/em&gt;&lt;br /&gt;&lt;/p&gt;
       <item>
         <title>Dtune Beta</title>
         <description>
-&lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/dtune.jpg&quot; alt=&quot;dtune&quot; srcset=&quot;            /assets/images/resized/dtune-480.jpg 480w,            /assets/images/resized/dtune-900.jpg 900w,    &quot; layout=&quot;fill&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;img-container&quot;&gt;
+  &lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/dtune.jpg&quot; alt=&quot;dtune&quot; srcset=&quot;            /assets/images/resized/dtune-480.jpg 480w,            /assets/images/resized/dtune-900.jpg 900w,    &quot; layout=&quot;fill&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Dtune is my latest project, still in development. At the moment, I have released a working beta together with the starter of the project, the one and only David Tomic, that you can visit at &lt;a href=&quot;http://www.dtune.club&quot;&gt;dtune.club&lt;/a&gt;.&lt;/p&gt;
 
@@ -152,7 +225,7 @@ Me: &lt;em&gt;Ok.&lt;/em&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Give it a try at &lt;a href=&quot;http://www.dtune.club&quot;&gt;dtune.club&lt;/a&gt; and tell us what you think. Currently in development!&lt;/p&gt;
 </description>
-        <pubDate>Wed, 01 Mar 2017 00:00:00 +0100</pubDate>
+        <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
         <link>http://ettoreciprian.com/project/2017/03/01/dtune.html</link>
         <guid isPermaLink="true">http://ettoreciprian.com/project/2017/03/01/dtune.html</guid>
         
@@ -164,7 +237,9 @@ Me: &lt;em&gt;Ok.&lt;/em&gt;&lt;br /&gt;&lt;/p&gt;
       <item>
         <title>Studiospazio</title>
         <description>
-&lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/studiospazio.jpg&quot; alt=&quot;Studiospazio&quot; srcset=&quot;            /assets/images/resized/studiospazio-480.jpg 480w,            /assets/images/resized/studiospazio-900.jpg 900w,    &quot; layout=&quot;fill&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;img-container&quot;&gt;
+  &lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/studiospazio.jpg&quot; alt=&quot;Studiospazio&quot; srcset=&quot;            /assets/images/resized/studiospazio-480.jpg 480w,            /assets/images/resized/studiospazio-900.jpg 900w,    &quot; layout=&quot;fill&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Studiospazio is a full screen gallery with responsive layout and lazy loading of the images.&lt;/p&gt;
 
@@ -174,10 +249,10 @@ Me: &lt;em&gt;Ok.&lt;/em&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;The web page idea came as a collaboration between me and the commissioner, Studiospazio. It is designed to be simple and to work wit all devices screen sizes and orientations. It features a infinite scroll, with each project containing at least four images, and an action button on top to show description and plans of one studio’s project.&lt;/p&gt;
 
-&lt;p&gt;Regarding the implementation, the gallery is created thanks to the awesome and only &lt;a href=&quot;http://flickity.metafizzy.co/&quot;&gt;flickity&lt;/a&gt; library, while the lazy loading is achieved with &lt;a href=&quot;https://github.com/aFarkas/lazysizes&quot;&gt;lazysizes&lt;/a&gt;
+&lt;p&gt;Regarding the implementation, the gallery is created thanks to the awesome and only &lt;a href=&quot;http://flickity.metafizzy.co/&quot;&gt;flickity&lt;/a&gt; library, while the lazy loading is achieved with &lt;a href=&quot;https://github.com/aFarkas/lazysizes&quot;&gt;lazysizes&lt;/a&gt;. &lt;br /&gt;
 Check this project Github &lt;a href=&quot;https://github.com/platinumjesus/studiospazio&quot;&gt;repository&lt;/a&gt; for some juicy code.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+        <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
         <link>http://ettoreciprian.com/project/2017/01/01/studiospazio.html</link>
         <guid isPermaLink="true">http://ettoreciprian.com/project/2017/01/01/studiospazio.html</guid>
         
@@ -189,11 +264,13 @@ Check this project Github &lt;a href=&quot;https://github.com/platinumjesus/stud
       <item>
         <title>No Internet Connection</title>
         <description>
-&lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/withoutinternet.jpg&quot; alt=&quot;A web presentation made with fullPage&quot; srcset=&quot;            /assets/images/resized/withoutinternet-480.jpg 480w,            /assets/images/resized/withoutinternet-900.jpg 900w,    &quot; layout=&quot;fill&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;img-container&quot;&gt;
+  &lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/withoutinternet.jpg&quot; alt=&quot;A web presentation made with fullPage&quot; srcset=&quot;            /assets/images/resized/withoutinternet-480.jpg 480w,            /assets/images/resized/withoutinternet-900.jpg 900w,    &quot; layout=&quot;fill&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
 
 &lt;p&gt;The Internet is our precious source of information, what would happen if it went down? This &lt;a href=&quot;http://alvarotrigo.com/fullPage/#firstPage&quot;&gt;fullPage.js&lt;/a&gt; presentation tries to explain it in a not threatening way.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 01 Jul 2015 00:00:00 +0200</pubDate>
+        <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
         <link>http://ettoreciprian.com/project/2015/07/01/internetisdown.html</link>
         <guid isPermaLink="true">http://ettoreciprian.com/project/2015/07/01/internetisdown.html</guid>
         
@@ -205,7 +282,9 @@ Check this project Github &lt;a href=&quot;https://github.com/platinumjesus/stud
       <item>
         <title>Forget me not</title>
         <description>
-&lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/forgetme.jpg&quot; alt=&quot;Forget me&quot; srcset=&quot;            /assets/images/resized/forgetme-480.jpg 480w,            /assets/images/resized/forgetme-900.jpg 900w,    &quot; layout=&quot;fill&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;img-container&quot;&gt;
+  &lt;p&gt;&lt;img class=&quot;responsive-img  border-dashed &quot; src=&quot;/assets/images/forgetme.jpg&quot; alt=&quot;Forget me&quot; srcset=&quot;            /assets/images/resized/forgetme-480.jpg 480w,            /assets/images/resized/forgetme-900.jpg 900w,    &quot; layout=&quot;fill&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
 
 &lt;p&gt;&lt;em&gt;Forgetme&lt;/em&gt; tries to answer all of your most paranoid questions regarding your online life. Which of your accounts are public on the Internet? How easy is to be deleted?&lt;/p&gt;
 
@@ -215,7 +294,7 @@ Check this project Github &lt;a href=&quot;https://github.com/platinumjesus/stud
 
 &lt;p&gt;Forgetme uses &lt;a href=&quot;https://pipl.com/dev/&quot;&gt;Pipl&lt;/a&gt; free API to find your email and/or name, then it cross-references the most probable results with &lt;a href=&quot;http://backgroundchecks.org/justdeleteme/en.html&quot;&gt;justdeleteme&lt;/a&gt; folder of accounts, rated by privacy policies of the service provider.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 01 Jul 2015 00:00:00 +0200</pubDate>
+        <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
         <link>http://ettoreciprian.com/project/2015/07/01/forgetme.html</link>
         <guid isPermaLink="true">http://ettoreciprian.com/project/2015/07/01/forgetme.html</guid>
         

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ettore Ciprian's Web Dungeon</title>
-    <description>Ettore Ciprian is a full stack developer living and studying in Berlin and likes movies and web projects with questionable features</description>
+    <title>Ettore's Web Dungeon</title>
+    <description>Ettore is a full stack developer living and studying in the web. He likes movies and web projects with questionable features.</description>
     <link>http://ettoreciprian.com/</link>
     <atom:link href="http://ettoreciprian.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 01 Dec 2017 10:24:38 +0000</pubDate>
-    <lastBuildDate>Fri, 01 Dec 2017 10:24:38 +0000</lastBuildDate>
+    <pubDate>Fri, 01 Dec 2017 12:46:18 +0000</pubDate>
+    <lastBuildDate>Fri, 01 Dec 2017 12:46:18 +0000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
-        <title>(auto) download</title>
+        <title>automagically torrents</title>
         <description>&lt;div class=&quot;column banner banner-tldr&quot;&gt;
   &lt;p&gt;&lt;span class=&quot;span-tldr&quot;&gt;TL;DR&lt;/span&gt; - Troppo Lungo, Daje Riassumi.&lt;/p&gt;
   &lt;p&gt;Scaricare serie tv o file automaticamente tramite torrent è facile. Basta creare un feed Rss con la lista delle nostre serie tv preferite su &lt;a href=&quot;http://showrss.info&quot;&gt;showRSS&lt;/a&gt; ed inserirlo in qBitorrent o un programma simile. Appena uscito un nuovo episodio, questo verrà messo direttamente in download.&lt;/p&gt;
@@ -73,7 +73,7 @@ Nel tutorial seguente ti propongo una semplice guida su come impostare qBitorren
       </item>
     
       <item>
-        <title>L'arte del download</title>
+        <title>a matter of downloads</title>
         <description>&lt;div class=&quot;column banner banner-tldr&quot;&gt;
   &lt;p&gt;&lt;span class=&quot;span-tldr&quot;&gt;TL;DR&lt;/span&gt; - Troppo Lungo, Daje Riassumi.&lt;/p&gt;
   &lt;p&gt;Scaricare contenuti e metterli in streaming è facile ed meglio con programmi di &lt;em&gt;torrenting&lt;/em&gt;, come quelli da me consigliati qBitorrent e Webtorrent.&lt;/p&gt;
@@ -94,7 +94,7 @@ Nel tutorial seguente ti propongo una semplice guida su come impostare qBitorren
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Comprare il film&lt;/strong&gt; o noleggiarlo su servizi come Amazon Prime: pagheresti anche un fiorino per vedere &lt;a href=&quot;https://www.rottentomatoes.com/m/the_emoji_movie/&quot;&gt;una boiata pazzesca&lt;/a&gt;? Non tutti i film sono inoltre disponibili.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Cercarlo in streaming&lt;/strong&gt;: i buoni siti di streaming sono rari e poco duraturi, oltre che pieni di fastidiose pubblicità.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Girare una versione&lt;/strong&gt; in casa: tanto abbiamo tutti le abilità teatrali di Mark Wahlberg dopo aver visto abbastanza esplosioni e genitali Transformers.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Girare una versione&lt;/strong&gt; amatoriale: tanto abbiamo tutti le abilità teatrali di Mark Wahlberg dopo aver visto abbastanza esplosioni e genitali Transformers.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Continuare a leggere&lt;/strong&gt; questo articolo, perchè alla fine c’è una gif divertente.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -122,7 +122,7 @@ Nel tutorial seguente ti propongo una semplice guida su come impostare qBitorren
 &lt;div class=&quot;flex-wrapper flex-center&quot;&gt;
   &lt;div class=&quot;border-dashed two-columns column flex-center self-center&quot;&gt;
 
-    &lt;p&gt;&lt;img class=&quot;&quot; src=&quot;http://i.utdstc.com/icons/256/qbittorrent-mac.png&quot; alt=&quot;qBittorrent&quot; title=&quot;qBittorrent&quot; width=&quot;64px&quot; height=&quot;560px&quot; layout=&quot;fill&quot; /&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;img class=&quot;&quot; src=&quot;https://orig00.deviantart.net/fba1/f/2016/037/e/c/qbittorent_icon_by_ssvdude-d9qp2p7.png&quot; alt=&quot;qBittorrent&quot; title=&quot;qBittorrent&quot; width=&quot;64px&quot; height=&quot;560px&quot; layout=&quot;fill&quot; /&gt;&lt;/p&gt;
 
     &lt;p&gt;&lt;strong&gt;qBittorrent&lt;/strong&gt; è un client open surce multi piattaforma ricco di funzionalità.&lt;/p&gt;
 
@@ -247,7 +247,7 @@ Me: &lt;em&gt;Ok.&lt;/em&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;The web page idea came as a collaboration between me and the commissioner, Studiospazio. It is designed to be simple and to work wit all devices screen sizes and orientations. It features a infinite scroll, with each project containing at least four images, and an action button on top to show description and plans of one studio’s project.&lt;/p&gt;
 
-&lt;p&gt;Regarding the implementation, the gallery is created thanks to the awesome and only &lt;a href=&quot;http://flickity.metafizzy.co/&quot;&gt;flickity&lt;/a&gt; library, while the lazy loading is achieved with &lt;a href=&quot;https://github.com/aFarkas/lazysizes&quot;&gt;lazysizes&lt;/a&gt;. &lt;br /&gt;
+&lt;p&gt;Regarding the implementation, the gallery is created thanks to the awesome and only &lt;a href=&quot;http://flickity.metafizzy.co/&quot;&gt;flickity&lt;/a&gt; library, while the lazy loading is achieved with &lt;a href=&quot;https://github.com/aFarkas/lazysizes&quot;&gt;lazysizes&lt;/a&gt;.&lt;br /&gt;
 Check this project Github &lt;a href=&quot;https://github.com/platinumjesus/studiospazio&quot;&gt;repository&lt;/a&gt; for some juicy code.&lt;/p&gt;
 </description>
         <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>

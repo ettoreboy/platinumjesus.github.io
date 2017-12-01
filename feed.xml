@@ -5,15 +5,15 @@
     <description>Ettore Ciprian is a full stack developer living and studying in Berlin and likes movies and web projects with questionable features</description>
     <link>http://ettoreciprian.com/</link>
     <atom:link href="http://ettoreciprian.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 27 Oct 2017 10:08:08 +0000</pubDate>
-    <lastBuildDate>Fri, 27 Oct 2017 10:08:08 +0000</lastBuildDate>
+    <pubDate>Fri, 01 Dec 2017 10:24:38 +0000</pubDate>
+    <lastBuildDate>Fri, 01 Dec 2017 10:24:38 +0000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
         <title>(auto) download</title>
         <description>&lt;div class=&quot;column banner banner-tldr&quot;&gt;
   &lt;p&gt;&lt;span class=&quot;span-tldr&quot;&gt;TL;DR&lt;/span&gt; - Troppo Lungo, Daje Riassumi.&lt;/p&gt;
-  &lt;p&gt;Scaricare serie tv o file automaticamente tramite torrent è facile. Basta creare un feed Rss con la lista delle nostre serie tv preferite su &lt;a href=&quot;http://showrss.info&quot;&gt;showRSS&lt;/a&gt; ed inserirlo in qBitorrent o un programma simile. Appena uscito un nuovo episodio verrà subito messo in download.&lt;/p&gt;
+  &lt;p&gt;Scaricare serie tv o file automaticamente tramite torrent è facile. Basta creare un feed Rss con la lista delle nostre serie tv preferite su &lt;a href=&quot;http://showrss.info&quot;&gt;showRSS&lt;/a&gt; ed inserirlo in qBitorrent o un programma simile. Appena uscito un nuovo episodio, questo verrà messo direttamente in download.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;!-- &lt;div class=&quot;decor-mono decor-margin center&quot;&gt;
@@ -25,8 +25,8 @@
 
 &lt;/div&gt; --&gt;
 
-&lt;p&gt;Se hai letto il mio &lt;a href=&quot;/post/2017/07/25/artdownloading.html&quot;&gt;post&lt;/a&gt; precedente saprai cosa sono e quanto è facile scaricare tramite applicazioni torrent, quali qBitorrent e Webtorrent.&lt;br /&gt;
-Nel video tutorial seguente ti propongo una semplice guida su come impostare qBitorrent allo scaricamento automatico degli ultimi episodi della tua serie preferita, che sia anche &lt;em&gt;The Walking Dad&lt;/em&gt;, &lt;em&gt;Dr. Lupus&lt;/em&gt;, &lt;em&gt;Narco(lessia) - la terza stagione&lt;/em&gt; o &lt;em&gt;Quella cosa di Lory del Santo&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Se hai letto il mio &lt;a href=&quot;/post/2017/07/25/artdownloading.html&quot;&gt;post&lt;/a&gt; precedente saprai cosa sono e quanto è facile scaricare tramite applicazioni torrent, quali qBitorrent o WebTorrent.&lt;br /&gt;
+Nel tutorial seguente ti propongo una semplice guida su come impostare qBitorrent allo scaricamento automatico degli ultimi episodi della tua serie preferita, che sia anche &lt;em&gt;The Walking Dad&lt;/em&gt;, &lt;em&gt;Dr. Lupus&lt;/em&gt;, &lt;em&gt;Narco(lessia) - la terza stagione&lt;/em&gt; o &lt;em&gt;Quella cosa di Lory Del Santo&lt;/em&gt;.&lt;/p&gt;
 
 &lt;div class=&quot;responsive-gif center&quot;&gt;
 
@@ -35,20 +35,18 @@ Nel video tutorial seguente ti propongo una semplice guida su come impostare qBi
 
 &lt;/div&gt;
 
-&lt;p&gt;Il tutto è spiegato nel video, ma se non vuoi darmi un altro click sul mio canale, te lo spiego alla vecchia maniera con degli screenshots. &lt;em&gt;Cheap bastard&lt;/em&gt;.&lt;/p&gt;
-
 &lt;h2 id=&quot;creare-il-feed-rss&quot;&gt;Creare il feed Rss&lt;/h2&gt;
 
-&lt;p&gt;Il sito che utilizzo, per semplicità, è &lt;a href=&quot;http://showrss.info&quot;&gt;showRSS.info&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Il sito che utilizzo, scelto per la semplicità, è &lt;a href=&quot;http://showrss.info&quot;&gt;showRSS.info&lt;/a&gt;.&lt;/p&gt;
 
 &lt;div class=&quot;img-container&quot;&gt;
   &lt;p&gt;&lt;img class=&quot;responsive-img   &quot; src=&quot;/assets/images/blog/show-rss1.PNG&quot; alt=&quot;Screenshot 1&quot; srcset=&quot;            /assets/images/resized/show-rss1-480.PNG 480w,            /assets/images/resized/show-rss1-900.PNG 900w,    &quot; layout=&quot;fill&quot; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Una volta registrati si possono scegliere le serie tv preferite, aggiungerle alla lista e creare cosi un feed. Basta poi cliccare su &lt;strong&gt;My Feed&lt;/strong&gt; per vedere il link da copiare. Quest’ultimo rimane invariato, possiamo infatti aggiungere altre serie tv nel tempo senza dover riconfigurare il tutto. &lt;em&gt;Ci mancherebbe&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Una volta registrati puoi scegliere le serie tv preferite, aggiungerle alla lista e creare cosi un feed. Basta poi cliccare su &lt;strong&gt;My Feed&lt;/strong&gt; per vedere un link. Quest’ultimo rimane invariato, possiamo infatti aggiungere altre serie tv nel tempo senza dover riconfigurare il tutto. &lt;em&gt;Ci mancherebbe&lt;/em&gt;. Copia il link e apri qBitorrent.&lt;/p&gt;
 
 &lt;h2 id=&quot;aggiungere-il-feed-a-qbitorrent&quot;&gt;Aggiungere il feed a qBitorrent&lt;/h2&gt;
-&lt;p&gt;Una volta abilitato sotto &lt;strong&gt;Visualizza&lt;/strong&gt; ➝ &lt;strong&gt;Lettore Rss&lt;/strong&gt;, possiamo aggiungere il nostro link sopra generato cliccando su &lt;strong&gt;Nuova iscrizione&lt;/strong&gt;. Da questo momento avremo sempre a disposizione una lista aggiornata dei nostri torrent preferiti, direttamente nel programma. Basta cliccarci sopra due volte per aggiungere il tutto in download. &lt;em&gt;Wow&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Una volta abilitata la finestra in screenshot sotto &lt;strong&gt;Visualizza&lt;/strong&gt; ➝ &lt;strong&gt;Lettore Rss&lt;/strong&gt;, possiamo aggiungere il nostro url precedentemente ottenuto cliccando su &lt;strong&gt;Nuova iscrizione&lt;/strong&gt;. Da questo momento avremo sempre a disposizione una lista aggiornata dei nostri torrent preferiti, direttamente nel programma. Basta cliccarci sopra due volte per aggiungere il tutto in download. &lt;em&gt;Wow&lt;/em&gt;.&lt;/p&gt;
 
 &lt;div class=&quot;img-container&quot;&gt;
   &lt;p&gt;&lt;img class=&quot;responsive-img   &quot; src=&quot;/assets/images/blog/qbitorrent-rss1.PNG&quot; alt=&quot;Screenshot 2&quot; srcset=&quot;            /assets/images/resized/qbitorrent-rss1-480.PNG 480w,            /assets/images/resized/qbitorrent-rss1-900.PNG 900w,    &quot; layout=&quot;fill&quot; /&gt;&lt;/p&gt;
@@ -56,7 +54,7 @@ Nel video tutorial seguente ti propongo una semplice guida su come impostare qBi
 
 &lt;h2 id=&quot;nerdate-aggiuntive&quot;&gt;Nerdate aggiuntive&lt;/h2&gt;
 
-&lt;p&gt;Smanettando con le impostazioni sull’iscrizione RSS sotto &lt;strong&gt;Gestore download RSS&lt;/strong&gt; si possono creare regole per lo scarimento automatico. Usando delle &lt;em&gt;espressioni regolari&lt;/em&gt; si può istruire il programma per mettere in download file contenenti specifiche parole appena avviato.&lt;/p&gt;
+&lt;p&gt;Smanettando con le impostazioni dell’iscrizione RSS sotto &lt;strong&gt;Gestore download RSS&lt;/strong&gt; si possono creare regole per lo scarimento automatico. Usando delle &lt;em&gt;espressioni regolari&lt;/em&gt; si può istruire il programma per mettere in download file contenenti specifiche parole da noi scelte.&lt;/p&gt;
 
 &lt;div class=&quot;img-container&quot;&gt;
   &lt;p&gt;&lt;img class=&quot;&quot; src=&quot;/assets/images/blog/qbitorrent-rss2.PNG&quot; alt=&quot;Screenshot 3&quot; title=&quot;Screenshot 3&quot; width=&quot;818px&quot; height=&quot;569px&quot; layout=&quot;fill&quot; /&gt;&lt;/p&gt;

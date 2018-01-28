@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mirror mirror on the wall &#9760; Ettore&#39;s Web Dungeon</title>
+  
+    <meta name="description" content="Come assemblare uno specchio che integra Alexa di Amazon.">
+  
+
+  
+  <!-- Link to amp page-->
+  <link rel="amphtml" href="http://ettoreciprian.com/amp/post/2017/12/06/mirrormirror.html">
+  
+  <!-- Facebook Tags -->
+  
+<meta content="Ettore's Web Dungeon" property="og:site_name">
+
+  <meta content="mirror mirror on the wall" property="og:title">
+
+
+  <meta content="article" property="og:type">
+
+
+  <meta content="Come assemblare uno specchio che integra Alexa di Amazon." property="og:description">
+
+
+  <meta content="http://ettoreciprian.com/post/2017/12/06/mirrormirror.html" property="og:url">
+
+
+  <meta content="2017-12-06T16:25:00+00:00" property="article:published_time">
+  <meta content="http://ettoreciprian.com" property="article:author">
+
+
+  <meta content="http://ettoreciprian.com/assets/images/blog/mirror.PNG" property="og:image">
+
+
+  
+  <meta content="post" property="article:section">
+  
+
+
+  
+  <meta content="torrent, download" property="article:tag">
+  
+
+
+  
+
+
+</head>
+<body>
+  
+
+  <div class="wrapper">
+
+    <header>
+  <nav class="main-nav">
+    <ul class="nav-wrap">
+      <li><a href="/" class="nav-item">Home</a></li>
+      <li><span class="icon icon-fleur"></span><a href="/projects.html" class="nav-item">Projects</a></li>
+      <li><span class="icon icon-fleur"></span><a href="/blog.html" class="nav-item">Blog</a></li>
+    </ul>
+  </nav>
+</header>
+
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <div class="post-header center">
+    <h1 class="post-title" itemprop="name headline">mirror mirror on the wall</h1>
+    
+
+
+<div class="decor decor-margin center">
+  <pre>&#9824;</pre>
+  <pre>&#183;~~~~~~~&#183;  &#183;~~~~~~~&#183;</pre>
+  
+  <pre>&#183;~~&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#10100;&#10021;&#10101;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;~~&#183;</pre>
+
+</div>
+
+
+    <p class="post-meta">
+      <time datetime="2017-12-06T16:25:00+00:00" itemprop="datePublished">Dec 6, 2017</time>
+        <span> • </span>
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <span itemprop="name">Ettore Ciprian</span>
+        </span>
+        
+     </p>
+  </div>
+
+  <section class="post-content" itemprop="articleBody">
+    <div class="column banner banner-tldr">
+  <p><span class="span-tldr">TL;DR</span> - Troppo Lungo, Daje Riassumi.</p>
+  <p>Come costruire uno specchio che è in realtà uno schermo, che è in realtà Alexa su un Raspberry Pi con i comandi vocali. <em>Togo</em>.</p>
+</div>
+
+<div class="responsive-gif center">
+
+  <p><img alt="A funny gif" src="https://media.giphy.com/media/NJKKy7o0mM920/giphy.gif" class="giphy-embed" /></p>
+  <p><a href="https://giphy.com/gifs/NJKKy7o0mM920">via GIPHY</a></p>
+
+</div>
+
+<h2 id="lo-specchio">Lo specchio</h2>
+
+<p>Il progetto MagicMirror è infatti abbastanza popolare tra quelli che hanno voglia di mettere le mani sul popolare lampone dei computer, il <a href="https://www.raspberrypi.org/">Raspberry Pi</a>, ovvero un computer funzionante delle dimensioni di una carta di credito. Aggiungendo un pò di vecchio hardware mi è stato possibile creare uno specchio, che per mezzo di Alexa e MagicMirror, mi permette di visualizzare una agenda, meteo, notizie e rispondere ai miei quesiti. E perchè no, chi ha bisogno di un motivo per avere un complesso sistema di comandi vocali anche solo per chiedere il meteo, <em>am I right?</em>.</p>
+
+<p>Di seguito una breve dimostrazione. Si, è un video in verticale.</p>
+<div class="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Ocxoq2x8Eh8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+</div>
+
+<h2 id="but-how">But How?</h2>
+<p>Costruire un Magic Mirror non è particolarmente difficile, soprattutto per la parte hardware. Riguardo al software, potrebbe essere complicato per chi non a domestichezza con le basi di Linux, in questo caso Raspbian, e command line. Se quando hai letto Linux ti è mancata un pò la terra sotto i piedi questo tutorial non fa per te.</p>
+
+<h3 id="hardware">Hardware</h3>
+<ul>
+  <li><strong>Uno schermo</strong> - possibilmente con aspetto 16:9 in verticale e dotato di casse stereo.</li>
+  <li><strong>Assi di compensato</strong> - o un altro materiale a piacimento per realizzare la cornice.</li>
+  <li><strong>Raspberry Pi</strong> - Modello 2 o 3 - il modello 1 potrebbe risultare molto più lento e instabile.</li>
+  <li><strong>Cavo HDMI</strong> - o compatibile per la connessione schermo - RPi.</li>
+  <li><strong>Pellicola lucida del tipo monodirezionale</strong> - ovvero una pellicola per protezione finestre da applicare sullo schermo, che serve all’effetto specchio.</li>
+  <li>(Opzionale) <strong>Speakers</strong> - se assenti nel display. Nel mio caso ho utilizzato una vecchia tv con altoparlanti inclusi.</li>
+  <li>(Opzionale) <strong>Led e resistenza da 330 Ohm</strong> - per segnalare l’attività di Alexa.</li>
+  <li>(Opzionale) <strong>Pulsante</strong> - per riavviare il tutto senza interrompere la corrente.</li>
+</ul>
+
+<p>Ho escluso dalla lista alcune cose ovvie come chiodi e colla per legno, ma anche un altro computer funzionante e una connessione ad internet wireless.</p>
+
+<div class="img-container">
+  <p><img class="responsive-img   " src="/assets/images/blog/mirror-collage.jpg" alt="layout mirror" srcset="            /assets/images/resized/mirror-collage-480.jpg 480w,            /assets/images/resized/mirror-collage-900.jpg 900w,    " layout="fill" /></p>
+</div>
+
+<p>Non ho un vero tutorial in questa sezione. Quello che ho fatto, non senza un discreto aiuto da chi ha i giusti attrezzi, è stato tagliare il legno con un seghetto elettrico a misura del mio schermo. Dopo aver smontato la cornice in plastica, attentamente e senza perdere di vista i collegamenti esistenti, lo ho riassemblato sul legno. Il modello si compone di quattro assi, a formare i lati, una vera e propria cornice dalla grandezza dello schermo, e un pannello più piccolo sul retro per fissare RPi e componenti dello schermo.</p>
+
+<h3 id="software">Software</h3>
+<p>Per un Magic Mirror completo o fatto testo alle guide ufficiali dei seguenti tools. Di seguito l’ordine di installazione che ho seguito.</p>
+
+<ol>
+  <li><a href="https://www.raspberrypi.org/downloads/raspbian/">Raspbian</a> - il sistema operativo del Raspberry.</li>
+  <li><a href="https://magicmirror.builders/">Magic Mirror</a> - Un software basato su Node per visualizzare informazioni su sfondo nero, pensato esattamente per questo progetto.</li>
+  <li><a href="https://github.com/alexa/alexa-avs-sample-app/wiki/Raspberry-Pi">Alexa per RPi</a> - il build di Alexa per RPi.</li>
+  <li><a href="http://pm2.keymetrics.io/docs/usage/quick-start/">Pm2</a> - per gestire l’avvio di tutte le applicazione precedenti.</li>
+</ol>
+
+<p>Questo è tutto! <em>Stay nerd</em>.</p>
+
+  </section>
+
+  
+
+
+<div class="decor decor-margin center">
+
+  <pre>&#183;~~&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#10100;&#10021;&#10101;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;~~&#183;</pre>
+
+<pre>&#183;~~~~~~~&#183;  &#183;~~~~~~~&#183;</pre>
+<pre class="flip">&#9824;</pre>
+</div>
+
+
+
+  
+</article>
+
+
+
+<script type="application/ld+json">
+{
+  "@context":"http://schema.org",
+  "@type":"BlogPosting",
+  "headline":"mirror mirror on the wall",
+  "genre":"http://vocab.getty.edu/aat/300048715", //Article
+  "keywords":"magic mirror, specchio magico, alexa, come costruire specchio, amazon alexa raspberry, alexa raspberry, magic mirror alexa, riconoscimento vocale alexa, riconoscimento vocale",
+  "wordCount":"568",
+  "url":"http://ettoreciprian.com/post/2017/12/06/mirrormirror.html",
+  "datePublished":"2017-12-06",
+  "author": {
+    "@type": "Person",
+    "name": "Ettore Ciprian",
+    "sameAs": [
+      "https://github.com/platinumjesus"
+    ]
+  },
+  "publisher":{
+    "@type": "Organization",
+    "name": "Ettore Ciprian",
+    "sameAs": [
+      "https://github.com/platinumjesus"
+    ],
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://ettoreciprian.com/assets/images/logo.png",
+      "height": "64",
+      "width": "64"
+    }
+  },
+  "image":{
+    "@type":"ImageObject",
+    "contentUrl":"http://ettoreciprian.com/assets/images/resized/mirror.PNG",
+    "url":"http://ettoreciprian.com",
+    "height":"270",
+    "width":"480"
+  },
+  "mainEntityOfPage":{
+    "@type":"WebPage",
+    "@id":"http://ettoreciprian.com"
+  },
+  "articleBody":"TL;DR - Troppo Lungo, Daje Riassumi.  Come costruire uno specchio che è in realtà uno schermo, che è in realtà Alexa su un Raspberry Pi con i comandi vocali. Togo.    via GIPHYLo specchioIl progetto MagicMirror è infatti abbastanza popolare tra quelli che hanno voglia di mettere le mani sul popolare lampone dei computer, il Raspberry Pi, ovvero un computer funzionante delle dimensioni di una carta di credito. Aggiungendo un pò di vecchio hardware mi è stato possibile creare uno specchio, che per mezzo di Alexa e MagicMirror, mi permette di visualizzare una agenda, meteo, notizie e rispondere ai miei quesiti. E perchè no, chi ha bisogno di un motivo per avere un complesso sistema di comandi vocali anche solo per chiedere il meteo, am I right?.Di seguito una breve dimostrazione. Si, è un video in verticale.  But How?Costruire un Magic Mirror non è particolarmente difficile, soprattutto per la parte hardware. Riguardo al software, potrebbe essere complicato per chi non a domestichezza con le basi di Linux, in questo caso Raspbian, e command line. Se quando hai letto Linux ti è mancata un pò la terra sotto i piedi questo tutorial non fa per te.Hardware  Uno schermo - possibilmente con aspetto 16:9 in verticale e dotato di casse stereo.  Assi di compensato - o un altro materiale a piacimento per realizzare la cornice.  Raspberry Pi - Modello 2 o 3 - il modello 1 potrebbe risultare molto più lento e instabile.  Cavo HDMI - o compatibile per la connessione schermo - RPi.  Pellicola lucida del tipo monodirezionale - ovvero una pellicola per protezione finestre da applicare sullo schermo, che serve all’effetto specchio.  (Opzionale) Speakers - se assenti nel display. Nel mio caso ho utilizzato una vecchia tv con altoparlanti inclusi.  (Opzionale) Led e resistenza da 330 Ohm - per segnalare l’attività di Alexa.  (Opzionale) Pulsante - per riavviare il tutto senza interrompere la corrente.Ho escluso dalla lista alcune cose ovvie come chiodi e colla per legno, ma anche un altro computer funzionante e una connessione ad internet wireless.  Non ho un vero tutorial in questa sezione. Quello che ho fatto, non senza un discreto aiuto da chi ha i giusti attrezzi, è stato tagliare il legno con un seghetto elettrico a misura del mio schermo. Dopo aver smontato la cornice in plastica, attentamente e senza perdere di vista i collegamenti esistenti, lo ho riassemblato sul legno. Il modello si compone di quattro assi, a formare i lati, una vera e propria cornice dalla grandezza dello schermo, e un pannello più piccolo sul retro per fissare RPi e componenti dello schermo.SoftwarePer un Magic Mirror completo o fatto testo alle guide ufficiali dei seguenti tools. Di seguito l’ordine di installazione che ho seguito.  Raspbian - il sistema operativo del Raspberry.  Magic Mirror - Un software basato su Node per visualizzare informazioni su sfondo nero, pensato esattamente per questo progetto.  Alexa per RPi - il build di Alexa per RPi.  Pm2 - per gestire l’avvio di tutte le applicazione precedenti.Questo è tutto! Stay nerd."
+}
+</script>
+
+
+    <footer class="site-footer">
+  <div class="flex-wrapper">
+      <div class="row-left">
+            
+            Created by <strong>Ettore Ciprian</strong> 2017 &copy;
+            
+      </div>
+      <div class="row-right">
+          
+            <a href="mailto:contact@ettoreciprian.com">mail me</a>
+          
+          
+            <span class="icon icon-skull"></span><a href="https://github.com/" target="_blank">github</a>
+          
+      </div>
+    </div>
+</footer>
+
+  </div>
+  <!-- Css -->
+  <link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Source+Sans+Pro" rel="stylesheet">
+  <link rel="stylesheet" href="/sass/main.css" media="none" onload="if(media!='all')media='all'">
+  <noscript><link rel="stylesheet" href="/sass/main.css"></noscript>
+</body>
+</html>

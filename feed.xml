@@ -5,9 +5,78 @@
     <description>Ettore is a full stack developer living and studying in the web. He likes movies and web projects with questionable features.</description>
     <link>http://ettoreciprian.com/</link>
     <atom:link href="http://ettoreciprian.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 01 Dec 2017 15:41:33 +0000</pubDate>
-    <lastBuildDate>Fri, 01 Dec 2017 15:41:33 +0000</lastBuildDate>
-    <generator>Jekyll v3.6.2</generator>
+    <pubDate>Sun, 28 Jan 2018 11:26:33 +0000</pubDate>
+    <lastBuildDate>Sun, 28 Jan 2018 11:26:33 +0000</lastBuildDate>
+    <generator>Jekyll v3.7.2</generator>
+    
+      <item>
+        <title>mirror mirror on the wall</title>
+        <description>&lt;div class=&quot;column banner banner-tldr&quot;&gt;
+  &lt;p&gt;&lt;span class=&quot;span-tldr&quot;&gt;TL;DR&lt;/span&gt; - Troppo Lungo, Daje Riassumi.&lt;/p&gt;
+  &lt;p&gt;Come costruire uno specchio che è in realtà uno schermo, che è in realtà Alexa su un Raspberry Pi con i comandi vocali. &lt;em&gt;Togo&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;responsive-gif center&quot;&gt;
+
+  &lt;p&gt;&lt;img alt=&quot;A funny gif&quot; src=&quot;https://media.giphy.com/media/NJKKy7o0mM920/giphy.gif&quot; class=&quot;giphy-embed&quot; /&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;https://giphy.com/gifs/NJKKy7o0mM920&quot;&gt;via GIPHY&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&quot;lo-specchio&quot;&gt;Lo specchio&lt;/h2&gt;
+
+&lt;p&gt;Il progetto MagicMirror è infatti abbastanza popolare tra quelli che hanno voglia di mettere le mani sul popolare lampone dei computer, il &lt;a href=&quot;https://www.raspberrypi.org/&quot;&gt;Raspberry Pi&lt;/a&gt;, ovvero un computer funzionante delle dimensioni di una carta di credito. Aggiungendo un pò di vecchio hardware mi è stato possibile creare uno specchio, che per mezzo di Alexa e MagicMirror, mi permette di visualizzare una agenda, meteo, notizie e rispondere ai miei quesiti. E perchè no, chi ha bisogno di un motivo per avere un complesso sistema di comandi vocali anche solo per chiedere il meteo, &lt;em&gt;am I right?&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Di seguito una breve dimostrazione. Si, è un video in verticale.&lt;/p&gt;
+&lt;div class=&quot;video-container&quot;&gt;
+  &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Ocxoq2x8Eh8&quot; frameborder=&quot;0&quot; gesture=&quot;media&quot; allow=&quot;encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;but-how&quot;&gt;But How?&lt;/h2&gt;
+&lt;p&gt;Costruire un Magic Mirror non è particolarmente difficile, soprattutto per la parte hardware. Riguardo al software, potrebbe essere complicato per chi non a domestichezza con le basi di Linux, in questo caso Raspbian, e command line. Se quando hai letto Linux ti è mancata un pò la terra sotto i piedi questo tutorial non fa per te.&lt;/p&gt;
+
+&lt;h3 id=&quot;hardware&quot;&gt;Hardware&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Uno schermo&lt;/strong&gt; - possibilmente con aspetto 16:9 in verticale e dotato di casse stereo.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Assi di compensato&lt;/strong&gt; - o un altro materiale a piacimento per realizzare la cornice.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Raspberry Pi&lt;/strong&gt; - Modello 2 o 3 - il modello 1 potrebbe risultare molto più lento e instabile.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Cavo HDMI&lt;/strong&gt; - o compatibile per la connessione schermo - RPi.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Pellicola lucida del tipo monodirezionale&lt;/strong&gt; - ovvero una pellicola per protezione finestre da applicare sullo schermo, che serve all’effetto specchio.&lt;/li&gt;
+  &lt;li&gt;(Opzionale) &lt;strong&gt;Speakers&lt;/strong&gt; - se assenti nel display. Nel mio caso ho utilizzato una vecchia tv con altoparlanti inclusi.&lt;/li&gt;
+  &lt;li&gt;(Opzionale) &lt;strong&gt;Led e resistenza da 330 Ohm&lt;/strong&gt; - per segnalare l’attività di Alexa.&lt;/li&gt;
+  &lt;li&gt;(Opzionale) &lt;strong&gt;Pulsante&lt;/strong&gt; - per riavviare il tutto senza interrompere la corrente.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ho escluso dalla lista alcune cose ovvie come chiodi e colla per legno, ma anche un altro computer funzionante e una connessione ad internet wireless.&lt;/p&gt;
+
+&lt;div class=&quot;img-container&quot;&gt;
+  &lt;p&gt;&lt;img class=&quot;responsive-img   &quot; src=&quot;/assets/images/blog/mirror-collage.jpg&quot; alt=&quot;layout mirror&quot; srcset=&quot;            /assets/images/resized/mirror-collage-480.jpg 480w,            /assets/images/resized/mirror-collage-900.jpg 900w,    &quot; layout=&quot;fill&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Non ho un vero tutorial in questa sezione. Quello che ho fatto, non senza un discreto aiuto da chi ha i giusti attrezzi, è stato tagliare il legno con un seghetto elettrico a misura del mio schermo. Dopo aver smontato la cornice in plastica, attentamente e senza perdere di vista i collegamenti esistenti, lo ho riassemblato sul legno. Il modello si compone di quattro assi, a formare i lati, una vera e propria cornice dalla grandezza dello schermo, e un pannello più piccolo sul retro per fissare RPi e componenti dello schermo.&lt;/p&gt;
+
+&lt;h3 id=&quot;software&quot;&gt;Software&lt;/h3&gt;
+&lt;p&gt;Per un Magic Mirror completo o fatto testo alle guide ufficiali dei seguenti tools. Di seguito l’ordine di installazione che ho seguito.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.raspberrypi.org/downloads/raspbian/&quot;&gt;Raspbian&lt;/a&gt; - il sistema operativo del Raspberry.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://magicmirror.builders/&quot;&gt;Magic Mirror&lt;/a&gt; - Un software basato su Node per visualizzare informazioni su sfondo nero, pensato esattamente per questo progetto.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/alexa/alexa-avs-sample-app/wiki/Raspberry-Pi&quot;&gt;Alexa per RPi&lt;/a&gt; - il build di Alexa per RPi.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://pm2.keymetrics.io/docs/usage/quick-start/&quot;&gt;Pm2&lt;/a&gt; - per gestire l’avvio di tutte le applicazione precedenti.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Questo è tutto! &lt;em&gt;Stay nerd&lt;/em&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 06 Dec 2017 16:25:00 +0000</pubDate>
+        <link>http://ettoreciprian.com/post/2017/12/06/mirrormirror.html</link>
+        <guid isPermaLink="true">http://ettoreciprian.com/post/2017/12/06/mirrormirror.html</guid>
+        
+        <category>torrent, download</category>
+        
+        
+        <category>post</category>
+        
+      </item>
     
       <item>
         <title>automagically torrents</title>

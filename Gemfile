@@ -19,7 +19,7 @@ group :jekyll_plugins do
  gem "jekyll-responsive-image"
  gem "amp-jekyll"
  gem "jekyll-sitemap"
- gem 'octopress-minify-html'
+ gem  "jekyll-minifier"
 end
 
 group :test do
